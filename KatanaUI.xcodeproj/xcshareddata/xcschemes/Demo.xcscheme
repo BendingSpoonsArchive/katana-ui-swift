@@ -9,15 +9,15 @@
          <BuildActionEntry
             buildForAnalyzing = "YES"
             buildForTesting = "NO"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO">
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "267EE00D36CAF6B7E354114E"
-               BlueprintName = "KatanaElements"
+               BlueprintIdentifier = "6E1FD94588CC856291853B2B"
+               BlueprintName = "Demo"
                ReferencedContainer = "container:KatanaUI.xcodeproj"
-               BuildableName = "KatanaElements.framework">
+               BuildableName = "Demo.app">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,10 +46,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "267EE00D36CAF6B7E354114E"
-            BlueprintName = "KatanaElements"
+            BlueprintIdentifier = "6E1FD94588CC856291853B2B"
+            BlueprintName = "Demo"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
-            BuildableName = "KatanaElements.framework">
+            BuildableName = "Demo.app">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,10 +62,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "267EE00D36CAF6B7E354114E"
-            BlueprintName = "KatanaElements"
+            BlueprintIdentifier = "6E1FD94588CC856291853B2B"
+            BlueprintName = "Demo"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
-            BuildableName = "KatanaElements.framework">
+            BuildableName = "Demo.app">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
