@@ -78,7 +78,7 @@ struct CounterScreen: NodeDescription {
   ...
   public static func applyPropsToNativeView(
       props: PropsType,
-	  state: StateType,
+      state: StateType,
       view: NativeView, ...) {
 
   	view.frame = props.frame
@@ -97,7 +97,7 @@ struct CounterScreen: NodeDescription {
       state: StateType, ...) -> [AnyNodeDescription] {
 
   	return [
-  		Label(props: LabelProps.build({ (labelProps) in
+      Label(props: LabelProps.build({ (labelProps) in
           labelProps.key = CounterScreen.Keys.label.rawValue
           labelProps.textAlignment = .center
           labelProps.backgroundColor = .mediumAquamarine
