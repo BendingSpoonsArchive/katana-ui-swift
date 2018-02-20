@@ -14,10 +14,24 @@
             buildForArchiving = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A351F32F0A4E113F2657EF9B"
+               BlueprintIdentifier = "FFA1BCC72D5BBAB472B724C3"
                BlueprintName = "KatanaUI"
                ReferencedContainer = "container:KatanaUI.xcodeproj"
                BuildableName = "KatanaUI.framework">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForAnalyzing = "YES"
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C23BBB0B92E37C668D3F9C94"
+               BlueprintName = "KatanaUITests"
+               ReferencedContainer = "container:KatanaUI.xcodeproj"
+               BuildableName = "KatanaUITests.xctest">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,9 +40,21 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
       <AdditionalOptions>
       </AdditionalOptions>
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C23BBB0B92E37C668D3F9C94"
+               BlueprintName = "KatanaUITests"
+               ReferencedContainer = "container:KatanaUI.xcodeproj"
+               BuildableName = "KatanaUITests.xctest">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -38,7 +64,7 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       allowLocationSimulation = "YES">
       <AdditionalOptions>
       </AdditionalOptions>
@@ -46,7 +72,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A351F32F0A4E113F2657EF9B"
+            BlueprintIdentifier = "FFA1BCC72D5BBAB472B724C3"
             BlueprintName = "KatanaUI"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
             BuildableName = "KatanaUI.framework">
@@ -57,12 +83,12 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A351F32F0A4E113F2657EF9B"
+            BlueprintIdentifier = "FFA1BCC72D5BBAB472B724C3"
             BlueprintName = "KatanaUI"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
             BuildableName = "KatanaUI.framework">
@@ -70,7 +96,7 @@
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"

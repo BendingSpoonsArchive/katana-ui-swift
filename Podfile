@@ -3,4 +3,7 @@ use_frameworks!
 
 target 'KatanaUI' do
   pod 'Katana', :path => '../katana-swift'
+
+  target 'KatanaUITests' do
+  end
 end

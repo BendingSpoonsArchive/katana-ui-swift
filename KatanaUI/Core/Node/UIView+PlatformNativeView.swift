@@ -8,7 +8,7 @@
 
 import UIKit
 
-fileprivate let VIEWTAG = 999987
+internal let VIEWTAG = 999987
 
 /// An extension of UIView that implements the `DrawableContainer` protocol
 extension UIView: PlatformNativeView {
