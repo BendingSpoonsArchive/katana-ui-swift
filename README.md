@@ -76,9 +76,11 @@ When it's time to render the component, the method `applyPropsToNativeView` is c
 ```swift
 struct CounterScreen: NodeDescription {
   ...
-  public static func applyPropsToNativeView(props: PropsType,
-  											state: StateType,
-  											view: NativeView, ...) {
+  public static func applyPropsToNativeView(
+      props: PropsType,
+	  state: StateType,
+      view: NativeView, ...) {
+
   	view.frame = props.frame
   	view.alpha = props.alpha
   }
@@ -90,8 +92,10 @@ struct CounterScreen: NodeDescription {
 ```swift
 struct CounterScreen: NodeDescription {
   ...
-  public static func childrenDescriptions(props: PropsType,
-  											state: StateType, ...) -> 	  [AnyNodeDescription] {
+  public static func childrenDescriptions(
+      props: PropsType,
+      state: StateType, ...) -> [AnyNodeDescription] {
+
   	return [
   		Label(props: LabelProps.build({ (labelProps) in
           labelProps.key = CounterScreen.Keys.label.rawValue
