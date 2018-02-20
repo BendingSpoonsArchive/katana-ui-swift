@@ -7,3 +7,7 @@ target 'KatanaUI' do
   target 'KatanaUITests' do
   end
 end
+
+target 'KatanaElements' do
+  pod 'Katana', :path => '../katana-swift'
+end

@@ -42,31 +42,30 @@ katana = target do |target|
 end
 
 
-# # Katana Elements iOS Framework target
-# katana_elements_ios = target do |target|
-#     target.name = "KatanaElements iOS"
-#     target.platform = :ios
-#     target.deployment_target = 9.0
-#     target.language = :swift
-#     target.type = :framework
-#     target.linked_targets = [katana_ios]
-#     target.include_files = [
-#         "KatanaElements/Common/**/*.swift",
-#         "KatanaElements/iOS/**/*.swift"
-#     ]
+# Katana Elements iOS Framework target
+katana_elements_ios = target do |target|
+    target.name = "KatanaElements"
+    target.platform = :ios
+    target.deployment_target = 9.0
+    target.language = :swift
+    target.type = :framework
+    target.linked_targets = [katana]
+    target.include_files = [
+        "KatanaElements/**/*.swift"
+    ]
 
-#     target.all_configurations.each do |configuration|
-#         configuration.settings["INFOPLIST_FILE"] = "KatanaElements/iOS/Info.plist"
-#         configuration.settings["PRODUCT_NAME"] = "KatanaElements"
-# 	configuration.settings["SWIFT_VERSION"] = "4.0"
-#     end
+    target.all_configurations.each do |configuration|
+        configuration.settings["INFOPLIST_FILE"] = "KatanaElements/Info.plist"
+        configuration.settings["PRODUCT_NAME"] = "KatanaElements"
+	    configuration.settings["SWIFT_VERSION"] = "4.0"
+    end
 
-#     target.headers_build_phase do |phase|
-#         phase.public << "KatanaElements/iOS/KatanaElements.h"
-#     end
+    target.headers_build_phase do |phase|
+        phase.public << "KatanaElements/KatanaElements.h"
+    end
 
-#     target.scheme(target.name)
-# end
+    target.scheme(target.name)
+end
 
 # # iOS Demo target
 # demo_ios = target do |target|

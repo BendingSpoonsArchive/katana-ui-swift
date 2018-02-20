@@ -14,24 +14,10 @@
             buildForArchiving = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CCA5D8C9E8EC76A8DD41FB11"
-               BlueprintName = "KatanaUI"
+               BlueprintIdentifier = "49C5CC288071DFE84631E287"
+               BlueprintName = "KatanaElements"
                ReferencedContainer = "container:KatanaUI.xcodeproj"
-               BuildableName = "KatanaUI.framework">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForAnalyzing = "YES"
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "966E1297C4847928ECA6D7C0"
-               BlueprintName = "KatanaUITests"
-               ReferencedContainer = "container:KatanaUI.xcodeproj"
-               BuildableName = "KatanaUITests.xctest">
+               BuildableName = "KatanaElements.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,18 +29,6 @@
       buildConfiguration = "Debug">
       <AdditionalOptions>
       </AdditionalOptions>
-      <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "966E1297C4847928ECA6D7C0"
-               BlueprintName = "KatanaUITests"
-               ReferencedContainer = "container:KatanaUI.xcodeproj"
-               BuildableName = "KatanaUITests.xctest">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -72,10 +46,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCA5D8C9E8EC76A8DD41FB11"
-            BlueprintName = "KatanaUI"
+            BlueprintIdentifier = "49C5CC288071DFE84631E287"
+            BlueprintName = "KatanaElements"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
-            BuildableName = "KatanaUI.framework">
+            BuildableName = "KatanaElements.framework">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -88,10 +62,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCA5D8C9E8EC76A8DD41FB11"
-            BlueprintName = "KatanaUI"
+            BlueprintIdentifier = "49C5CC288071DFE84631E287"
+            BlueprintName = "KatanaElements"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
-            BuildableName = "KatanaUI.framework">
+            BuildableName = "KatanaElements.framework">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
