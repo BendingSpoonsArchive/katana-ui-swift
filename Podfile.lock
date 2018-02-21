@@ -1,16 +1,12 @@
 PODS:
-  - Katana (0.8.12)
+  - Katana (1.0.0)
 
 DEPENDENCIES:
-  - Katana (from `../katana-swift`)
-
-EXTERNAL SOURCES:
-  Katana:
-    :path: ../katana-swift
+  - Katana (~> 1.0)
 
 SPEC CHECKSUMS:
-  Katana: 453e16b22c96d9db1c4144eb48a827389bf30f30
+  Katana: f45caad244d2f375d41068d94a7758b576940fd2
 
-PODFILE CHECKSUM: ee088eb491704df582fb32ab4b713caa5f741baf
+PODFILE CHECKSUM: 3cdde1ed65ae618eb462df4d24166113515267c8
 
 COCOAPODS: 1.4.0

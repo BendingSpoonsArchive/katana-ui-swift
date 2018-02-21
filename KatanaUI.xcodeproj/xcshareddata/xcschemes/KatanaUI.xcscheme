@@ -14,7 +14,7 @@
             buildForArchiving = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D7ED4200F507FAB18BEE3EE0"
+               BlueprintIdentifier = "1D10C2FB2C03906C89D038BF"
                BlueprintName = "KatanaUI"
                ReferencedContainer = "container:KatanaUI.xcodeproj"
                BuildableName = "KatanaUI.framework">
@@ -28,7 +28,7 @@
             buildForArchiving = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607539F48E242F43D04FCD77"
+               BlueprintIdentifier = "826593E8FBA44723AE2BB3A6"
                BlueprintName = "KatanaUITests"
                ReferencedContainer = "container:KatanaUI.xcodeproj"
                BuildableName = "KatanaUITests.xctest">
@@ -48,7 +48,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607539F48E242F43D04FCD77"
+               BlueprintIdentifier = "826593E8FBA44723AE2BB3A6"
                BlueprintName = "KatanaUITests"
                ReferencedContainer = "container:KatanaUI.xcodeproj"
                BuildableName = "KatanaUITests.xctest">
@@ -72,7 +72,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7ED4200F507FAB18BEE3EE0"
+            BlueprintIdentifier = "1D10C2FB2C03906C89D038BF"
             BlueprintName = "KatanaUI"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
             BuildableName = "KatanaUI.framework">
@@ -88,7 +88,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D7ED4200F507FAB18BEE3EE0"
+            BlueprintIdentifier = "1D10C2FB2C03906C89D038BF"
             BlueprintName = "KatanaUI"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
             BuildableName = "KatanaUI.framework">

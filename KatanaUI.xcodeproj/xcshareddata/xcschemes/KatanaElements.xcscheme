@@ -14,7 +14,7 @@
             buildForArchiving = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "267EE00D36CAF6B7E354114E"
+               BlueprintIdentifier = "AD6DDCF241B453746CB49BD8"
                BlueprintName = "KatanaElements"
                ReferencedContainer = "container:KatanaUI.xcodeproj"
                BuildableName = "KatanaElements.framework">
@@ -46,7 +46,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "267EE00D36CAF6B7E354114E"
+            BlueprintIdentifier = "AD6DDCF241B453746CB49BD8"
             BlueprintName = "KatanaElements"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
             BuildableName = "KatanaElements.framework">
@@ -62,7 +62,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "267EE00D36CAF6B7E354114E"
+            BlueprintIdentifier = "AD6DDCF241B453746CB49BD8"
             BlueprintName = "KatanaElements"
             ReferencedContainer = "container:KatanaUI.xcodeproj"
             BuildableName = "KatanaElements.framework">
