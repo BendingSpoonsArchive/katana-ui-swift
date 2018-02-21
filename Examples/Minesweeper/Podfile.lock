@@ -1,0 +1,26 @@
+PODS:
+  - Katana (1.0.0)
+  - KatanaElements (0.0.1):
+    - KatanaUI (~> 0.0.1)
+  - KatanaUI (0.0.1):
+    - Katana (~> 1.0)
+
+DEPENDENCIES:
+  - Katana (~> 1.0)
+  - KatanaElements (from `../../`)
+  - KatanaUI (from `../../`)
+
+EXTERNAL SOURCES:
+  KatanaElements:
+    :path: ../../
+  KatanaUI:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  Katana: f45caad244d2f375d41068d94a7758b576940fd2
+  KatanaElements: 8d2f9b203fca2d056dad12ba1b25751949c1f816
+  KatanaUI: c76386f6516318747eb29c20305f37d44e35bbf6
+
+PODFILE CHECKSUM: 4bef56601c2c019bdd5589886258a742f8f55904
+
+COCOAPODS: 1.4.0
