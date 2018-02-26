@@ -3,7 +3,6 @@
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20katana_swift)](https://twitter.com/katana_swift)
 [![Build Status](https://travis-ci.org/BendingSpoons/katana-swift.svg?branch=master)](https://travis-ci.org/BendingSpoons/katana-swift)
 [![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/Katana.svg)]()
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods](https://img.shields.io/cocoapods/v/Katana.svg)]()
 [![Licence](https://img.shields.io/badge/Licence-MIT-lightgrey.svg)](https://github.com/BendingSpoons/katana-swift/blob/master/LICENSE)
 
@@ -233,7 +232,7 @@ pod try KatanaUI
 
 ## Installation
 
-Katana is available through [CocoaPods](https://cocoapods.org/) and [Carthage](https://github.com/Carthage/Carthage), you can also drop `Katana.project` into your Xcode project.
+Katana is available through [CocoaPods](https://cocoapods.org/)
 
 ### Requirements
 
@@ -274,32 +273,6 @@ Now, you just need to run:
 ```bash
 $ pod install
 ```
-
-
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager for Cocoa projects. 
-You can install Carthage downloading and running the `Carthage.pkg` file you can download from [here](https://github.com/Carthage/Carthage/releases) or you can install it using [Homebrew](http://brew.sh/) simply by running:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate Katana into your Xcode project using Carthage, add it to your `Cartfile`:
-
-```
-github "Bendingspoons/katana-ui-swift"
-```
-
-And Run:
-
-```bash
-$ carthage update
-```
-
-Then drag the built `KatanaUI.framework` and `KatanaElements.framework` into your Xcode project.
 
 ## Gradual Adoption
 
