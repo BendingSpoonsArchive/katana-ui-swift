@@ -13,14 +13,14 @@ KatanaElements include UI elements to be used with the Katana framework and allo
                        DESC
 
 
-  s.homepage         = 'https://github.com/BendingSpoons/katana-swift.git'
+  s.homepage         = 'https://github.com/BendingSpoons/katana-ui-swift.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Bending Spoons' => 'team@bendingspoons.com' }
-  s.source           = { :git => 'https://github.com/BendingSpoons/katana-swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BendingSpoons/katana-ui-swift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/katana_swift'
 
   s.ios.deployment_target = '8.3'
   
-  s.source_files = ['KatanaUI/**/**/*.{swift,h}']
+  s.source_files = 'KatanaUI/**/**/*.{swift,h}'
   s.dependency 'Katana', "~> 1.0"
 end
