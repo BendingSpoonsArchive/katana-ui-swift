@@ -21,6 +21,6 @@ KatanaElements include UI elements to be used with the Katana framework and allo
 
   s.ios.deployment_target = '8.3'
   
-  s.source_files = ['KatanaUI/**/*.{swift,h}']
+  s.source_files = ['KatanaUI/**/**/*.{swift,h}']
   s.dependency 'Katana', "~> 1.0"
 end
