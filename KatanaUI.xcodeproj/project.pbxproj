@@ -6,652 +6,652 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0283057F69C21F3153317137 /* ViewsContainer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95D2DE4B1228B2634A9898A /* ViewsContainer+Helpers.swift */; };
-		043C329D8645938571D7C1D1 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26FFD7D3E01AC980803F339 /* Anchor.swift */; };
-		0A54578C424D44E24AE7B908 /* PlasticDimensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6B64AC4DDB2AE9975238F /* PlasticDimensionsTests.swift */; };
-		0AA307CBBB624289EF689B20 /* TouchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11BA310CCE8E1B39BAA228D /* TouchHandler.swift */; };
-		0CFA8C658595E079DD159B05 /* AnyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E4F7FCEC82FE9957FA1FFD /* AnyNode.swift */; };
-		16995F3D64D4323D4113AD00 /* TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70DA02B2E7719EFE35A0482 /* TableDelegate.swift */; };
-		16E1F6E6072E5C0E2BC038B6 /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70DB31DA1F05E82076CF572 /* Commons.swift */; };
-		177F4FD918F0E54F3559F18E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5913FDC724EA2507671FB /* View.swift */; };
-		185E31DA550FD907295ADA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED24642A92F2FC0E09A9E7F /* LaunchScreen.storyboard */; };
-		1A84A61A180C64984B53DF55 /* NodeDescriptionShouldUpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE56D6C39E659AAB0FB708A /* NodeDescriptionShouldUpdateTests.swift */; };
-		1B1288304711AC315852C005 /* ChildrenAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD779553460655977DDDB7D /* ChildrenAnimations.swift */; };
-		20C6772C50F2DEE9CBB1B323 /* AnimationPropsTransfomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537CDC0F432F55C5EFCC2B0 /* AnimationPropsTransfomer.swift */; };
-		228C8DC158155EBD3D0C16A7 /* NodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE82FD9E6F0AF895FAA2B164 /* NodeTest.swift */; };
-		23053535E22C561249C08CA8 /* PlatformNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4832D542B716A6186021FB25 /* PlatformNativeView.swift */; };
-		2C596CBA836036DE1F33D4DF /* PlasticReferenceSizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5320826FE24B8663F206DF68 /* PlasticReferenceSizeable.swift */; };
-		2F4B7E46CEC3AC9AAF550933 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9CD78AC17A0107D2940525 /* Image.swift */; };
-		30B2A4F3D37495B28D68C1E3 /* NodeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76C2C53872140D2227D6836 /* NodeDescription.swift */; };
-		30ED6C082E86CF5F696E1F09 /* KatanaElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28F29D1942D1C5160EEC80 /* KatanaElements.framework */; };
-		30F1E55B3D47B228A575430D /* LayoutsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DFF99864535886554B46C /* LayoutsCache.swift */; };
-		314906B82C4BA20E75354866 /* Refs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1D2B412C1C7FDABDEBFB81 /* Refs.swift */; };
-		3521B06D43059385B686EF59 /* Pods_KatanaUI_KatanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4FBCC45C8EBBB79AD95737 /* Pods_KatanaUI_KatanaUITests.framework */; };
-		3A52CE99929E404C19F44D30 /* StateMockProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452E320313DAB0CD1F84E57B /* StateMockProvider.swift */; };
-		3CA57072D4BF234D95FFA90C /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D74AE3DF8F29A324B175E74 /* Buildable.swift */; };
-		41F57B2C815D9DCD118D4622 /* ConnectedNodeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C643C96558DA3C5B7234149 /* ConnectedNodeDescription.swift */; };
-		42BF1DD3A70AF4D917AA3E27 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415612B196136B8763D2B551 /* TableCell.swift */; };
-		4886760205481777937C46A3 /* KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E1084BEBC5DFB3F39F7A9F /* KatanaUI.framework */; };
-		5917C7F9470BE23FCAF421AA /* Highlightable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6C7F6EB7CE70EFF1F57FE /* Highlightable.swift */; };
-		5918899116C48BED9D36C825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26569D88863B1BB91EC59D85 /* UIKit.framework */; };
-		5BF11113D2F1FFF0A70F14B0 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DCF79A9DE19748EAF751E8 /* Pods_Demo.framework */; };
-		5CE7F15704B2B15F582B4DF9 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46491451D1DBBF84484DDD /* Animation.swift */; };
-		607B415B78037A19EBE9429C /* KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E1084BEBC5DFB3F39F7A9F /* KatanaUI.framework */; };
-		659B2D3ACBB8DF2B27F89513 /* Collections+Katana.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7A1A6F305CC2F576B474E3 /* Collections+Katana.swift */; };
-		6A37E9FDD9333B0916036C8F /* NativeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E8155EF835511C0CE4F53B /* NativeButton.swift */; };
-		70C34EF7F127870F8B38AB55 /* KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E1084BEBC5DFB3F39F7A9F /* KatanaUI.framework */; };
-		755C2DDC2BB00EE754EBE9AC /* ViewsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29876CA5DE6CB3F6C4557AE2 /* ViewsContainer.swift */; };
-		75B0DA43C7C7D1B7AAE2EBF5 /* PlasticView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5154326F56B2CA383D168F1 /* PlasticView+Convenience.swift */; };
-		79AAFA25DDEC21C043336B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36CB86385FBF5AC1D612A16 /* Foundation.framework */; };
-		7B9F04BCCCA91F47CA18892B /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923F23DCC0873EBA8D40B24 /* AnimationType.swift */; };
-		7D34197DE12809EF541EEC30 /* StateMockProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F647D62B4B8FCD06975397 /* StateMockProviderTests.swift */; };
-		7D5F660CA7105C8DA4479436 /* CoordinateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9D906FA119E35D089956B9 /* CoordinateConvertible.swift */; };
-		883BB08A61ABEC566324881C /* RenderContainersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A71BF24D57E417BA9E13A2 /* RenderContainersTest.swift */; };
-		8B69A03AE736B9F1C4B241C1 /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A965EA7A4E5901951E9AB9 /* CounterState.swift */; };
-		8BC372C0192727D889A3EB64 /* AnimationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A51460146A228468FCE0AC6 /* AnimationContainer.swift */; };
-		8EDDA09F5FB699365761D1E1 /* HierarchyManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30F1B2FABFE3C4AA8652BF /* HierarchyManagers.swift */; };
-		93C5D1E85EB4B2C771D708DE /* AnimationUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D852A5A17A2A7575F7F913 /* AnimationUtilsTests.swift */; };
-		947BBBF7A7B9B0DAB0A1D7D5 /* PlasticContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790654ED44188AFA95670E6D /* PlasticContainerTests.swift */; };
-		954CEB6025EDAE9A787FE5C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36CB86385FBF5AC1D612A16 /* Foundation.framework */; };
-		95E1F0332D072C2AE931F05A /* UIView+PlatformNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B4B743EDB17C17CBBE30EE /* UIView+PlatformNativeView.swift */; };
-		960283621C042DFC5396778D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36CB86385FBF5AC1D612A16 /* Foundation.framework */; };
-		979944C991461FF73171D50D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26569D88863B1BB91EC59D85 /* UIKit.framework */; };
-		9CADF6B42D32AADC3253C66C /* TouchHandlerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B94DA4CCBB55A18C287CA0 /* TouchHandlerEvent.swift */; };
-		9CFF1B4121541F8F186B0466 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4F2FA3C3B1349ABADCB8D /* Image.swift */; };
-		9E302E202B9091CF6288247A /* Pods_KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DC3A935A2C592E0DA82959 /* Pods_KatanaUI.framework */; };
-		9F0384D3F60FEF74198AB7D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26569D88863B1BB91EC59D85 /* UIKit.framework */; };
-		9FA593E25FFF14BD09716FC9 /* Node+AnyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B14E54217D2D163E615C4E /* Node+AnyNode.swift */; };
-		A5279E690C71C7129B17C540 /* PlasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60571567B0C60088C0A3EEB7 /* PlasticView.swift */; };
-		A5A085F69366C9500E375B98 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E855C979907C707C00FE4F /* EdgeInsets.swift */; };
-		A67871A7EA6120B67B70E8FB /* ChildrenAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6B7C10CAED70D25F9E1CC /* ChildrenAnimationsTests.swift */; };
-		A6DE3C092A34251C879D4CE8 /* PlasticConvenienceLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA72F6AE86EE3CEFEE11DE5 /* PlasticConvenienceLayoutTests.swift */; };
-		A8C3D8CB02256996F2BD1173 /* PlasticBasicLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8339C82126AF3B334FC373 /* PlasticBasicLayoutTests.swift */; };
-		B373B68CE17D669EEBC6F1F3 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D12407B94EB32159D6A8F /* Value.swift */; };
-		B6FCA7D9A84426184010F1ED /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D43DDB2E6EB0A310BEED9 /* Size.swift */; };
-		B7993B58E7BF8CA95C59594F /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00E49ACFECE04BFF97CB874 /* Renderer.swift */; };
-		C009605156D4357FDE135C80 /* CounterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A600EA8CA25DB5D88F8BB61 /* CounterScreen.swift */; };
-		C18592E6E5542738ED6F1528 /* NodeDescriptionLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF9BCA558FD7246C8D23634 /* NodeDescriptionLifecycleTests.swift */; };
-		C63F852F7729ABC93CF11EBE /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27C50BF8CFC5F86F684C2B0 /* View.swift */; };
-		C80F86B3AAB9C345899BA924 /* DecrementCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C04627DF0FA7CC48893F1C /* DecrementCounter.swift */; };
-		C88730F4F0A54C17B215FA8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36CB86385FBF5AC1D612A16 /* Foundation.framework */; };
-		CC1F11A7AAE61D53A22CF3DC /* Array+Plastic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBDBC7FA794D30CB669FC54 /* Array+Plastic.swift */; };
-		CEACA35D570647CC43E49BA8 /* NativeTableWrapperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4494728AD5B2DECDFB1759 /* NativeTableWrapperCell.swift */; };
-		CF84FBF03BB750E033B838F5 /* PlasticNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC0068E1AB867BE6AF46395 /* PlasticNode.swift */; };
-		D2758BFD77A4D0655CFDAF4A /* NodeDescriptionWithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803D7AEEFD2856AFCF6BA6E8 /* NodeDescriptionWithChildren.swift */; };
-		D88A143BE71B3B7A07AC5DCF /* PlasticNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8369F94F851506902A9CE412 /* PlasticNodeTests.swift */; };
-		DA06F439094B7508FC73E02E /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F92B7811535BB188F892B /* Button.swift */; };
-		DABAD66ABD695AB4C5DA248F /* Katana.h in Headers */ = {isa = PBXBuildFile; fileRef = DB76FC0877203797A315C253 /* Katana.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBAB0530520C5520AE93B884 /* IncrementCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914E479D956E5071AFD6430C /* IncrementCounter.swift */; };
-		DBE7A58A8150A3932CF8F21A /* NodeDescriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4A33CDFAAF57A43B19B6E7 /* NodeDescriptionTest.swift */; };
-		DDA09124AA09BD980D334D18 /* KatanaElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4298AA4339F14E450D8BA0 /* KatanaElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFAAC45CC4AA485BA3823D1A /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0C455547028BDF31B071AD /* Collections.swift */; };
-		DFF94B4C26C221BDF2BB2270 /* NativeTouchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D4A27367196CD511CA473B /* NativeTouchHandler.swift */; };
-		E16697B00DFD78E7EE44BDE7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0809CF3FD931A35ADC46D4D2 /* Node.swift */; };
-		E1BE8D26BEB324AB9D3007DC /* Pods_KatanaElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF5A9B78E5ADEF8FAEC34BF /* Pods_KatanaElements.framework */; };
-		E2DCABFFA52DA476B9A6C13F /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557018D581792A1B9F6A1741 /* Label.swift */; };
-		E30F6A91DA8C1A8818C5A7CA /* InternalNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB382B154DDFC627185FBE /* InternalNode.swift */; };
-		E42AC9A56023D1D4DDDA9796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26569D88863B1BB91EC59D85 /* UIKit.framework */; };
-		E45E501ADCEA87370ABE5F30 /* PlasticNodeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483230A0CE2954C0FFD3D2E /* PlasticNodeDescription.swift */; };
-		F44D55C445C466474F88584A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8EE73CA0D0BBDAFDB347C9 /* AppDelegate.swift */; };
-		F7F168B9B27CABBB19A802A5 /* AnimationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C331D3632E341B7FDF6D64ED /* AnimationUtils.swift */; };
-		F9953B209C546A6E0AC9A726 /* NativeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9928F0366B46B6DF6AAC1 /* NativeTable.swift */; };
-		FA0C3896CDCA2080FE1ECFF8 /* Int+Katana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749D21B0E2475F631ACF6F54 /* Int+Katana.swift */; };
-		FA191188E8E0192F77B31421 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4120E33BFB0317D1F9238EF9 /* Table.swift */; };
+		0304CDC21CEEEE200AF99D37 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C6F3C69C3707235D4B4DE6 /* TableCell.swift */; };
+		0439E69A49E598199290A97E /* HierarchyManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6252B6AAF2C9F4C57D637 /* HierarchyManagers.swift */; };
+		05E548CAA29845F7F7CF11C5 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FDA446B19DB5C62F90A2D0 /* Anchor.swift */; };
+		081F1FF00690F3CE66E1AAF5 /* StateMockProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA4193CD847A18B0F82603B /* StateMockProvider.swift */; };
+		088DC79414BC7A82A54B48C1 /* ChildrenAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF82C96E5CF7DE159CF7241 /* ChildrenAnimations.swift */; };
+		094B8996AC32A2F518977CB0 /* ChildrenAnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6A992E32C38005C6656A4E /* ChildrenAnimationsTests.swift */; };
+		0E0ADFF84F4A7D77E32441FB /* AnyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BC8F27061A08B12E08BA73 /* AnyNode.swift */; };
+		0FF5C5AD0810F536A2507845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFED3A9545C3811BD17756F /* AppDelegate.swift */; };
+		13A8EBBE96E87033FDF71AE0 /* CounterState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF1F0E8E685293A3A97368 /* CounterState.swift */; };
+		1D966EB7E95EEA2918A613A6 /* KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806410F140E6C6B2FEC8733A /* KatanaUI.framework */; };
+		1DA5BCAB6091C970BFA8B1B1 /* NodeDescriptionWithChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688638DD121C8FF7F6C8368A /* NodeDescriptionWithChildren.swift */; };
+		21939D4953B6342E35475EEA /* TouchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A078F93030AE9016E290C3D /* TouchHandler.swift */; };
+		2430AD063CF0409A211D4C42 /* InternalNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C52FA767C1075B14C1CB8 /* InternalNode.swift */; };
+		266088EB544FCBBF3AFA3716 /* Collections+Katana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1B4116E2FAFA12C7CDC534 /* Collections+Katana.swift */; };
+		2755800832EF24640F5A8620 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25703559EA04771CF93C03A /* Foundation.framework */; };
+		27A875755BA14762C33DB0A4 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAD0229DE180B0A0687A86E /* Image.swift */; };
+		2BAED20CB5A4E97EFB8BC9F0 /* AnimationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DACD3934A672B58222D9C /* AnimationUtils.swift */; };
+		2C3FB4337613C1171A35477A /* AnimationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BF1CDDB9E850C671B240EB /* AnimationContainer.swift */; };
+		3016778724C1040B9AC20E51 /* NodeDescriptionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AB2A3B46AA562914AFBCBD /* NodeDescriptionTest.swift */; };
+		32BFCCC9E3DCCB9F4BBF0DAC /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB47B38E30DFF3AEB00691F /* Table.swift */; };
+		35600804079AAB3E528AE23B /* Pods_KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F29F6AAAB85F21BF964794E /* Pods_KatanaUI.framework */; };
+		416E21D40F7F168FB50EFB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4E69247C5D8A0DD1CFA607 /* LaunchScreen.storyboard */; };
+		476926F2D2A74B1A48DC4D9E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0CFF2687946CE518BD7FFD /* View.swift */; };
+		4A3CB98D56AE4C9B8ADEE007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8B0E722203C73819A64CE1 /* UIKit.framework */; };
+		4C08DB578A9A336E67ABC4D6 /* DecrementCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E293FB1841A1002599EB6 /* DecrementCounter.swift */; };
+		4CEC33E50725F00DEC282B00 /* ViewsContainer+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8AFB1907735C3D4DD4A33D /* ViewsContainer+Helpers.swift */; };
+		4D6CDC52E6028FA76A4D7A47 /* Pods_KatanaElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 765D39B5E1D66EFEB075D836 /* Pods_KatanaElements.framework */; };
+		5081CA7F427B8BAE84413988 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400471A3B34668FD62C1FC9D /* Size.swift */; };
+		524D2325F292E935A7535C24 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D6A97A677528CF4A7EAA5 /* Value.swift */; };
+		5383B10BEE7904CCEF7CCD77 /* NativeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871EB3B7714B6487F4BE3B1 /* NativeButton.swift */; };
+		55E8817C6432358E4AB81F07 /* StateMockProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD5591E8C390AF556797CF /* StateMockProviderTests.swift */; };
+		5677325DD1EDB07B39749EB5 /* LayoutsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C3B48A0543FCB8DDB0D6A /* LayoutsCache.swift */; };
+		595FE82D918E911AF145877F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25703559EA04771CF93C03A /* Foundation.framework */; };
+		5C7C5BA4E294624E51CC618E /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153E9FDEAFD5F990014650A4 /* EdgeInsets.swift */; };
+		5C8105C2F28CCD859811E8D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25703559EA04771CF93C03A /* Foundation.framework */; };
+		5EB8635AF2524BBD84DB4BFF /* NodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B918620FA1D3B4EA25B873A /* NodeTest.swift */; };
+		5FC41765676780048D40F33E /* Katana.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F421B8EC0FC649CCD9F127 /* Katana.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		647FA89C1410C3F88E3A68B4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17930130DF0B31675698FC3F /* View.swift */; };
+		64EA9A2F52EB5834521041BB /* IncrementCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C499D1A7F36E6A7282F214 /* IncrementCounter.swift */; };
+		6686F6B6E8D63998E7F407CC /* PlasticDimensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B181E77C09D019A6D3EB89DC /* PlasticDimensionsTests.swift */; };
+		6D98B915846060D84CA71393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8B0E722203C73819A64CE1 /* UIKit.framework */; };
+		6E9A6E28113A6A5CDD07DCDB /* TableDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DA92C224B84DAEA5299168 /* TableDelegate.swift */; };
+		6F4A4CD0A2CCDD58F6F72552 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6876802C21448851E522838C /* Pods_Demo.framework */; };
+		747E8709E19A754D6B0801C0 /* Refs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5035AE6D1736FC6D4A02F385 /* Refs.swift */; };
+		74B5C3F70906C7D364432053 /* NativeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E7DF9088F22090655BB8CD /* NativeTable.swift */; };
+		74F433C25E74F6E6956E4C0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8B0E722203C73819A64CE1 /* UIKit.framework */; };
+		75A2633EA3BAB060161C3631 /* PlasticView+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FF697B4F4747F481A7F38 /* PlasticView+Convenience.swift */; };
+		78637FE99966CC2D6C9F4B15 /* Int+Katana.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3501CF6BB863B7C5403FFC /* Int+Katana.swift */; };
+		7AC753E829D6A9FA665D958D /* KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806410F140E6C6B2FEC8733A /* KatanaUI.framework */; };
+		870652B309494591EA26228B /* PlasticReferenceSizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D1AC9D9747ED313A2A624 /* PlasticReferenceSizeable.swift */; };
+		887E645048DC05FE0E7C8EF1 /* KatanaUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806410F140E6C6B2FEC8733A /* KatanaUI.framework */; };
+		8A0D60796905256C7354AB4F /* AnimationUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAD928A1BB4D99DC7B1A43A /* AnimationUtilsTests.swift */; };
+		9122EDA9F3C2587C7FB96577 /* CoordinateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157752F5EE1281F649374A99 /* CoordinateConvertible.swift */; };
+		9637BE8312A2477346F85A71 /* NodeDescriptionLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F4BE21DA41C3E84F9C8574 /* NodeDescriptionLifecycleTests.swift */; };
+		9663BBBA91D9CEDF830B8985 /* ConnectedNodeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1151448C5D92323FB4DF3E /* ConnectedNodeDescription.swift */; };
+		9BFDA9F2F8CC25537250114A /* Pods_KatanaUI_KatanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA06CB51C25C2DA8308851A /* Pods_KatanaUI_KatanaUITests.framework */; };
+		A0682B004374E93EC1629555 /* Highlightable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFB49D5A1B808CF9F46A44F /* Highlightable.swift */; };
+		A23EA5439F9B97597701CF06 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A7FFABD33020487B974B9D /* Label.swift */; };
+		A53A221EE31CB083A8CA04C0 /* PlasticContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0F741D867D574C9104CD9 /* PlasticContainerTests.swift */; };
+		A548090B7222398D5675D508 /* PlasticNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2926438A9523682B89F0F0E5 /* PlasticNodeTests.swift */; };
+		A6E982B87DA3784101303D58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8B0E722203C73819A64CE1 /* UIKit.framework */; };
+		A79BBFF00ECA64ACC8232AF1 /* PlasticConvenienceLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693E81FA2313CD5464E71D5 /* PlasticConvenienceLayoutTests.swift */; };
+		A8BAFDD0A3F45DA271577398 /* PlasticNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217B13703174FC83783A2FA9 /* PlasticNode.swift */; };
+		A9960DB1A4C222373705645D /* Node+AnyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC6CBB6ED5B5F911BFD3683 /* Node+AnyNode.swift */; };
+		AF58DE758C9A7FB4651D37FC /* PlasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DEA72C7AE521F075FB9D14 /* PlasticView.swift */; };
+		B89D7DEFB853EA4C5C975B44 /* NativeTableWrapperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AB611B4043CED7E7D18153 /* NativeTableWrapperCell.swift */; };
+		B8A3461A883C17126352B7F2 /* ViewsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979E6EC201BD647A19D48675 /* ViewsContainer.swift */; };
+		B9C92D92513BB676004FCF15 /* NodeDescriptionShouldUpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5CA8ED67DA783796E0C0D6 /* NodeDescriptionShouldUpdateTests.swift */; };
+		C2F2419F2CEF6DD791BEB331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25703559EA04771CF93C03A /* Foundation.framework */; };
+		CA4403EF0C7FCB95D15834C3 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00226254144D3B5FD1493F94 /* Button.swift */; };
+		CEDDE5460A557BCC3EF53B99 /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD62D0E9B870E376416B05 /* Buildable.swift */; };
+		D188B04DC70224B6403B6C62 /* NativeTouchHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C08F1166F652816B3BE6A4 /* NativeTouchHandler.swift */; };
+		D18C3EC119BF6C9B2CDA8AC8 /* KatanaElements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2321C66A42823F940032E323 /* KatanaElements.framework */; };
+		D5DC16B40C10A83FC248F03D /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571DB57437926330E17A35B3 /* Collections.swift */; };
+		D7E57F280AB18CE0115108EB /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3285875A7F22305A49906C42 /* Animation.swift */; };
+		DDED7292830530DF4621CF24 /* KatanaElements.h in Headers */ = {isa = PBXBuildFile; fileRef = 905B522FBB9432C42B7D4678 /* KatanaElements.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E216AFF3EAF45CC71EBBDB1B /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C833BD12A43A10E880045D /* AnimationType.swift */; };
+		E24B4295290ADFE92A1FEE42 /* PlasticNodeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D409F3C6D9AEAA59195D4C /* PlasticNodeDescription.swift */; };
+		E32C63943A09463DA0FD7142 /* PlasticBasicLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0874C69C993C2268476B68 /* PlasticBasicLayoutTests.swift */; };
+		E64EB0D815BCAB5607AED6BA /* Array+Plastic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C79AD7A1A3946407BC428 /* Array+Plastic.swift */; };
+		E7026EA0C4BACD0636CDF482 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EA372246578DC5F601657A /* Renderer.swift */; };
+		E707E238D0C57A84DE626BA9 /* RenderContainersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0C8113B5E5657CA89A3D35 /* RenderContainersTest.swift */; };
+		EA8DCF4F3BDD377C913253DA /* CounterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5B0324BC5CAD4BD233BE83 /* CounterScreen.swift */; };
+		EB4CFF0A0C96C038B53D046B /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC677BBA59E462B3844C2BB /* Commons.swift */; };
+		F5274DC6C5093F0C2581CF73 /* UIView+PlatformNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484A8A59DACD2B7DD06DB509 /* UIView+PlatformNativeView.swift */; };
+		F60ABE209609CCFAF3C09620 /* AnimationPropsTransfomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E40887A6E8A8E821817EF91 /* AnimationPropsTransfomer.swift */; };
+		FBA651E81DA621EB95F417A3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9769B70F6542FAC4E7A8803E /* Image.swift */; };
+		FD16CDA65219AA6DDE66283F /* TouchHandlerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B94E3AA1A85E3A72405F40A /* TouchHandlerEvent.swift */; };
+		FF2EBCDC59F03C400F0ADC31 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3913303F7ED7228AAE9BF14C /* Node.swift */; };
+		FF42E2138BF7D932146E045C /* PlatformNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1967AAFCA4737296E1BC60 /* PlatformNativeView.swift */; };
+		FF794D5B264CEFC5A4E97F19 /* NodeDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5FD539D311A11BE2B8C9C /* NodeDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		60B9F3CC028A158CB68A4A2C /* PBXContainerItemProxy */ = {
+		65A7093CFC7693A0C3EBC8EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 75E3F1E538B8CD3AC1319813 /* Project object */;
+			containerPortal = 87B783410A321D640CD8F0D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D10C2FB2C03906C89D038BF;
-			remoteInfo = KatanaUI;
-		};
-		BD882956D4F4F7EE732C630C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75E3F1E538B8CD3AC1319813 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D10C2FB2C03906C89D038BF;
-			remoteInfo = KatanaUI;
-		};
-		CFCA382E0C763DE99C05D731 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75E3F1E538B8CD3AC1319813 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D10C2FB2C03906C89D038BF;
-			remoteInfo = KatanaUI;
-		};
-		EC9446388CFE33B6A2615930 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 75E3F1E538B8CD3AC1319813 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD6DDCF241B453746CB49BD8;
+			remoteGlobalIDString = 3B4EF1D845345E443576F599;
 			remoteInfo = KatanaElements;
+		};
+		74215B570A780D1B8FEBA8BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B783410A321D640CD8F0D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A070AED2AEC7E9C27A709D1;
+			remoteInfo = KatanaUI;
+		};
+		897216F9818B663EA45DBCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B783410A321D640CD8F0D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A070AED2AEC7E9C27A709D1;
+			remoteInfo = KatanaUI;
+		};
+		ADC280E7D2C2E42EB6B38886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87B783410A321D640CD8F0D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A070AED2AEC7E9C27A709D1;
+			remoteInfo = KatanaUI;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01D4A27367196CD511CA473B /* NativeTouchHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeTouchHandler.swift; sourceTree = "<group>"; };
-		0483230A0CE2954C0FFD3D2E /* PlasticNodeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticNodeDescription.swift; sourceTree = "<group>"; };
-		0809CF3FD931A35ADC46D4D2 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		0A51460146A228468FCE0AC6 /* AnimationContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationContainer.swift; sourceTree = "<group>"; };
-		0A8EE73CA0D0BBDAFDB347C9 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CA6B64AC4DDB2AE9975238F /* PlasticDimensionsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticDimensionsTests.swift; sourceTree = "<group>"; };
-		0D74AE3DF8F29A324B175E74 /* Buildable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Buildable.swift; sourceTree = "<group>"; };
-		10A71BF24D57E417BA9E13A2 /* RenderContainersTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RenderContainersTest.swift; sourceTree = "<group>"; };
-		1A600EA8CA25DB5D88F8BB61 /* CounterScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CounterScreen.swift; sourceTree = "<group>"; };
-		1C4298AA4339F14E450D8BA0 /* KatanaElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KatanaElements.h; sourceTree = "<group>"; };
-		1DD6B7C10CAED70D25F9E1CC /* ChildrenAnimationsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChildrenAnimationsTests.swift; sourceTree = "<group>"; };
-		1ED24642A92F2FC0E09A9E7F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EF9BCA558FD7246C8D23634 /* NodeDescriptionLifecycleTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionLifecycleTests.swift; sourceTree = "<group>"; };
-		1F28F29D1942D1C5160EEC80 /* KatanaElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KatanaElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22F6C7F6EB7CE70EFF1F57FE /* Highlightable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Highlightable.swift; sourceTree = "<group>"; };
-		26569D88863B1BB91EC59D85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2923F23DCC0873EBA8D40B24 /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
-		29876CA5DE6CB3F6C4557AE2 /* ViewsContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewsContainer.swift; sourceTree = "<group>"; };
-		2C643C96558DA3C5B7234149 /* ConnectedNodeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectedNodeDescription.swift; sourceTree = "<group>"; };
-		2DA9928F0366B46B6DF6AAC1 /* NativeTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeTable.swift; sourceTree = "<group>"; };
-		2F4FBCC45C8EBBB79AD95737 /* Pods_KatanaUI_KatanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaUI_KatanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3039D643DE1AB380254AABBD /* Pods-KatanaUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI/Pods-KatanaUI.release.xcconfig"; sourceTree = "<group>"; };
-		36F647D62B4B8FCD06975397 /* StateMockProviderTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StateMockProviderTests.swift; sourceTree = "<group>"; };
-		37D852A5A17A2A7575F7F913 /* AnimationUtilsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationUtilsTests.swift; sourceTree = "<group>"; };
-		395D53811886B00ADC46D8D0 /* Pods-KatanaElements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaElements.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaElements/Pods-KatanaElements.debug.xcconfig"; sourceTree = "<group>"; };
-		3AC0068E1AB867BE6AF46395 /* PlasticNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticNode.swift; sourceTree = "<group>"; };
-		3B8339C82126AF3B334FC373 /* PlasticBasicLayoutTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticBasicLayoutTests.swift; sourceTree = "<group>"; };
-		3BD779553460655977DDDB7D /* ChildrenAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChildrenAnimations.swift; sourceTree = "<group>"; };
-		4120E33BFB0317D1F9238EF9 /* Table.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
-		415612B196136B8763D2B551 /* TableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
-		448F23A89B1B560C669FDBEF /* KatanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		452E320313DAB0CD1F84E57B /* StateMockProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StateMockProvider.swift; sourceTree = "<group>"; };
-		4832D542B716A6186021FB25 /* PlatformNativeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformNativeView.swift; sourceTree = "<group>"; };
-		4D30F1B2FABFE3C4AA8652BF /* HierarchyManagers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HierarchyManagers.swift; sourceTree = "<group>"; };
-		5320826FE24B8663F206DF68 /* PlasticReferenceSizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticReferenceSizeable.swift; sourceTree = "<group>"; };
-		557018D581792A1B9F6A1741 /* Label.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
-		56E855C979907C707C00FE4F /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
-		60571567B0C60088C0A3EEB7 /* PlasticView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticView.swift; sourceTree = "<group>"; };
-		67C4F2FA3C3B1349ABADCB8D /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		71E8155EF835511C0CE4F53B /* NativeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeButton.swift; sourceTree = "<group>"; };
-		749D21B0E2475F631ACF6F54 /* Int+Katana.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Katana.swift"; sourceTree = "<group>"; };
-		75D67DA9E3956045EEE05AB9 /* Pods-KatanaUI-KatanaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI-KatanaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		76C04627DF0FA7CC48893F1C /* DecrementCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecrementCounter.swift; sourceTree = "<group>"; };
-		790654ED44188AFA95670E6D /* PlasticContainerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticContainerTests.swift; sourceTree = "<group>"; };
-		7BF5A9B78E5ADEF8FAEC34BF /* Pods_KatanaElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C1D2B412C1C7FDABDEBFB81 /* Refs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Refs.swift; sourceTree = "<group>"; };
-		7F46491451D1DBBF84484DDD /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
-		803D7AEEFD2856AFCF6BA6E8 /* NodeDescriptionWithChildren.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionWithChildren.swift; sourceTree = "<group>"; };
-		8369F94F851506902A9CE412 /* PlasticNodeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticNodeTests.swift; sourceTree = "<group>"; };
-		836D12407B94EB32159D6A8F /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
-		88E4F7FCEC82FE9957FA1FFD /* AnyNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyNode.swift; sourceTree = "<group>"; };
-		89B14E54217D2D163E615C4E /* Node+AnyNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Node+AnyNode.swift"; sourceTree = "<group>"; };
-		8B4494728AD5B2DECDFB1759 /* NativeTableWrapperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeTableWrapperCell.swift; sourceTree = "<group>"; };
-		8D905D4C0AB826BB3633D79F /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		8E4A33CDFAAF57A43B19B6E7 /* NodeDescriptionTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionTest.swift; sourceTree = "<group>"; };
-		8FA5913FDC724EA2507671FB /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		903FC51A62B470686DDC5933 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		914E479D956E5071AFD6430C /* IncrementCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IncrementCounter.swift; sourceTree = "<group>"; };
-		91DCF79A9DE19748EAF751E8 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94893C465437A8E800B77DBC /* Pods-KatanaElements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaElements.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaElements/Pods-KatanaElements.release.xcconfig"; sourceTree = "<group>"; };
-		95B4B743EDB17C17CBBE30EE /* UIView+PlatformNativeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+PlatformNativeView.swift"; sourceTree = "<group>"; };
-		98B94DA4CCBB55A18C287CA0 /* TouchHandlerEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchHandlerEvent.swift; sourceTree = "<group>"; };
-		A00E49ACFECE04BFF97CB874 /* Renderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
-		A537CDC0F432F55C5EFCC2B0 /* AnimationPropsTransfomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationPropsTransfomer.swift; sourceTree = "<group>"; };
-		A76C2C53872140D2227D6836 /* NodeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescription.swift; sourceTree = "<group>"; };
-		A95D2DE4B1228B2634A9898A /* ViewsContainer+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ViewsContainer+Helpers.swift"; sourceTree = "<group>"; };
-		AB0C455547028BDF31B071AD /* Collections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
-		ABF753DB9D933E0BC2E2AB86 /* Pods-KatanaUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI/Pods-KatanaUI.debug.xcconfig"; sourceTree = "<group>"; };
-		AD0D43DDB2E6EB0A310BEED9 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
-		B70DA02B2E7719EFE35A0482 /* TableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableDelegate.swift; sourceTree = "<group>"; };
-		BBA72F6AE86EE3CEFEE11DE5 /* PlasticConvenienceLayoutTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticConvenienceLayoutTests.swift; sourceTree = "<group>"; };
-		BC5F92B7811535BB188F892B /* Button.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		BE05D26B730538A7114AE175 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF9D906FA119E35D089956B9 /* CoordinateConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoordinateConvertible.swift; sourceTree = "<group>"; };
-		C0E1084BEBC5DFB3F39F7A9F /* KatanaUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KatanaUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C22DFF99864535886554B46C /* LayoutsCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutsCache.swift; sourceTree = "<group>"; };
-		C27C50BF8CFC5F86F684C2B0 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		C331D3632E341B7FDF6D64ED /* AnimationUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationUtils.swift; sourceTree = "<group>"; };
-		CE7A1A6F305CC2F576B474E3 /* Collections+Katana.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collections+Katana.swift"; sourceTree = "<group>"; };
-		CEBDBC7FA794D30CB669FC54 /* Array+Plastic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Plastic.swift"; sourceTree = "<group>"; };
-		D11BA310CCE8E1B39BAA228D /* TouchHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchHandler.swift; sourceTree = "<group>"; };
-		D26FFD7D3E01AC980803F339 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
-		D70DB31DA1F05E82076CF572 /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
-		D98FC7EC67584EC7C9AAFA13 /* Pods-KatanaUI-KatanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI-KatanaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D9CB382B154DDFC627185FBE /* InternalNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InternalNode.swift; sourceTree = "<group>"; };
-		DB76FC0877203797A315C253 /* Katana.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Katana.h; sourceTree = "<group>"; };
-		DE82FD9E6F0AF895FAA2B164 /* NodeTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeTest.swift; sourceTree = "<group>"; };
-		DF9CD78AC17A0107D2940525 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		E36CB86385FBF5AC1D612A16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E5154326F56B2CA383D168F1 /* PlasticView+Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PlasticView+Convenience.swift"; sourceTree = "<group>"; };
-		E7A965EA7A4E5901951E9AB9 /* CounterState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
-		EFE56D6C39E659AAB0FB708A /* NodeDescriptionShouldUpdateTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionShouldUpdateTests.swift; sourceTree = "<group>"; };
-		F7DC3A935A2C592E0DA82959 /* Pods_KatanaUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00226254144D3B5FD1493F94 /* Button.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		03F421B8EC0FC649CCD9F127 /* Katana.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Katana.h; sourceTree = "<group>"; };
+		048FF697B4F4747F481A7F38 /* PlasticView+Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PlasticView+Convenience.swift"; sourceTree = "<group>"; };
+		0A078F93030AE9016E290C3D /* TouchHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchHandler.swift; sourceTree = "<group>"; };
+		0BAE92084166414C97D9CC71 /* Pods-KatanaElements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaElements.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaElements/Pods-KatanaElements.release.xcconfig"; sourceTree = "<group>"; };
+		0C6A992E32C38005C6656A4E /* ChildrenAnimationsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChildrenAnimationsTests.swift; sourceTree = "<group>"; };
+		0CC677BBA59E462B3844C2BB /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Commons.swift; sourceTree = "<group>"; };
+		0CCD5591E8C390AF556797CF /* StateMockProviderTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StateMockProviderTests.swift; sourceTree = "<group>"; };
+		0D8AFB1907735C3D4DD4A33D /* ViewsContainer+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "ViewsContainer+Helpers.swift"; sourceTree = "<group>"; };
+		0DE6252B6AAF2C9F4C57D637 /* HierarchyManagers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HierarchyManagers.swift; sourceTree = "<group>"; };
+		0F1B4116E2FAFA12C7CDC534 /* Collections+Katana.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Collections+Katana.swift"; sourceTree = "<group>"; };
+		14BF1CDDB9E850C671B240EB /* AnimationContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationContainer.swift; sourceTree = "<group>"; };
+		153E9FDEAFD5F990014650A4 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		157752F5EE1281F649374A99 /* CoordinateConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoordinateConvertible.swift; sourceTree = "<group>"; };
+		16C6F3C69C3707235D4B4DE6 /* TableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		17930130DF0B31675698FC3F /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		1871EB3B7714B6487F4BE3B1 /* NativeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeButton.swift; sourceTree = "<group>"; };
+		1F6DACD3934A672B58222D9C /* AnimationUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationUtils.swift; sourceTree = "<group>"; };
+		217B13703174FC83783A2FA9 /* PlasticNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticNode.swift; sourceTree = "<group>"; };
+		2321C66A42823F940032E323 /* KatanaElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KatanaElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C08F1166F652816B3BE6A4 /* NativeTouchHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeTouchHandler.swift; sourceTree = "<group>"; };
+		2508E9A3F3436E131B55054F /* Pods-KatanaElements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaElements.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaElements/Pods-KatanaElements.debug.xcconfig"; sourceTree = "<group>"; };
+		2926438A9523682B89F0F0E5 /* PlasticNodeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticNodeTests.swift; sourceTree = "<group>"; };
+		2AA4193CD847A18B0F82603B /* StateMockProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StateMockProvider.swift; sourceTree = "<group>"; };
+		2AFB49D5A1B808CF9F46A44F /* Highlightable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Highlightable.swift; sourceTree = "<group>"; };
+		2B94E3AA1A85E3A72405F40A /* TouchHandlerEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TouchHandlerEvent.swift; sourceTree = "<group>"; };
+		2F8E293FB1841A1002599EB6 /* DecrementCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecrementCounter.swift; sourceTree = "<group>"; };
+		3285875A7F22305A49906C42 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		37DEA72C7AE521F075FB9D14 /* PlasticView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticView.swift; sourceTree = "<group>"; };
+		38BF1F0E8E685293A3A97368 /* CounterState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CounterState.swift; sourceTree = "<group>"; };
+		3913303F7ED7228AAE9BF14C /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		3D854F3CEA1F39595484B545 /* Pods-KatanaUI-KatanaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI-KatanaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8B0E722203C73819A64CE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		400471A3B34668FD62C1FC9D /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		484A8A59DACD2B7DD06DB509 /* UIView+PlatformNativeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+PlatformNativeView.swift"; sourceTree = "<group>"; };
+		48BC8F27061A08B12E08BA73 /* AnyNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyNode.swift; sourceTree = "<group>"; };
+		4E40887A6E8A8E821817EF91 /* AnimationPropsTransfomer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationPropsTransfomer.swift; sourceTree = "<group>"; };
+		4F1967AAFCA4737296E1BC60 /* PlatformNativeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformNativeView.swift; sourceTree = "<group>"; };
+		4FB5FD539D311A11BE2B8C9C /* NodeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescription.swift; sourceTree = "<group>"; };
+		5035AE6D1736FC6D4A02F385 /* Refs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Refs.swift; sourceTree = "<group>"; };
+		571DB57437926330E17A35B3 /* Collections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		5B918620FA1D3B4EA25B873A /* NodeTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeTest.swift; sourceTree = "<group>"; };
+		5C19425920B1546E5953956E /* Pods-KatanaUI-KatanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI-KatanaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F5CA8ED67DA783796E0C0D6 /* NodeDescriptionShouldUpdateTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionShouldUpdateTests.swift; sourceTree = "<group>"; };
+		6876802C21448851E522838C /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688638DD121C8FF7F6C8368A /* NodeDescriptionWithChildren.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionWithChildren.swift; sourceTree = "<group>"; };
+		69188CD233FED7E917955DFE /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F29F6AAAB85F21BF964794E /* Pods_KatanaUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F3C3B48A0543FCB8DDB0D6A /* LayoutsCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutsCache.swift; sourceTree = "<group>"; };
+		765D39B5E1D66EFEB075D836 /* Pods_KatanaElements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaElements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F4BE21DA41C3E84F9C8574 /* NodeDescriptionLifecycleTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionLifecycleTests.swift; sourceTree = "<group>"; };
+		7EA0F741D867D574C9104CD9 /* PlasticContainerTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticContainerTests.swift; sourceTree = "<group>"; };
+		806410F140E6C6B2FEC8733A /* KatanaUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KatanaUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D409F3C6D9AEAA59195D4C /* PlasticNodeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticNodeDescription.swift; sourceTree = "<group>"; };
+		8A5B0324BC5CAD4BD233BE83 /* CounterScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CounterScreen.swift; sourceTree = "<group>"; };
+		8DA06CB51C25C2DA8308851A /* Pods_KatanaUI_KatanaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatanaUI_KatanaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		905B522FBB9432C42B7D4678 /* KatanaElements.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KatanaElements.h; sourceTree = "<group>"; };
+		92E7DF9088F22090655BB8CD /* NativeTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeTable.swift; sourceTree = "<group>"; };
+		9769B70F6542FAC4E7A8803E /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		979E6EC201BD647A19D48675 /* ViewsContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewsContainer.swift; sourceTree = "<group>"; };
+		A4AB2A3B46AA562914AFBCBD /* NodeDescriptionTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NodeDescriptionTest.swift; sourceTree = "<group>"; };
+		A5FDA446B19DB5C62F90A2D0 /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		A9EA372246578DC5F601657A /* Renderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		AD4E69247C5D8A0DD1CFA607 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF512061D18FC3ECE89D084F /* Pods-KatanaUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI/Pods-KatanaUI.release.xcconfig"; sourceTree = "<group>"; };
+		B08FFB79B9B7D479E9CF8B4A /* Pods-KatanaUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatanaUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KatanaUI/Pods-KatanaUI.debug.xcconfig"; sourceTree = "<group>"; };
+		B181E77C09D019A6D3EB89DC /* PlasticDimensionsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticDimensionsTests.swift; sourceTree = "<group>"; };
+		B2AB611B4043CED7E7D18153 /* NativeTableWrapperCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NativeTableWrapperCell.swift; sourceTree = "<group>"; };
+		B7DA92C224B84DAEA5299168 /* TableDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TableDelegate.swift; sourceTree = "<group>"; };
+		BE1151448C5D92323FB4DF3E /* ConnectedNodeDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConnectedNodeDescription.swift; sourceTree = "<group>"; };
+		C2C499D1A7F36E6A7282F214 /* IncrementCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IncrementCounter.swift; sourceTree = "<group>"; };
+		C693E81FA2313CD5464E71D5 /* PlasticConvenienceLayoutTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticConvenienceLayoutTests.swift; sourceTree = "<group>"; };
+		C8BD62D0E9B870E376416B05 /* Buildable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Buildable.swift; sourceTree = "<group>"; };
+		CA0C8113B5E5657CA89A3D35 /* RenderContainersTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RenderContainersTest.swift; sourceTree = "<group>"; };
+		CCAD928A1BB4D99DC7B1A43A /* AnimationUtilsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationUtilsTests.swift; sourceTree = "<group>"; };
+		CDB47B38E30DFF3AEB00691F /* Table.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		CEFED3A9545C3811BD17756F /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF3501CF6BB863B7C5403FFC /* Int+Katana.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Katana.swift"; sourceTree = "<group>"; };
+		CFF82C96E5CF7DE159CF7241 /* ChildrenAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ChildrenAnimations.swift; sourceTree = "<group>"; };
+		D56D1AC9D9747ED313A2A624 /* PlasticReferenceSizeable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticReferenceSizeable.swift; sourceTree = "<group>"; };
+		DC0874C69C993C2268476B68 /* PlasticBasicLayoutTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlasticBasicLayoutTests.swift; sourceTree = "<group>"; };
+		DD0CFF2687946CE518BD7FFD /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		DFAD0229DE180B0A0687A86E /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		E25703559EA04771CF93C03A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E47E0A9535987DC8FD9AB0D5 /* KatanaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatanaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C086D20152D221C57AFF32 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		EFC6CBB6ED5B5F911BFD3683 /* Node+AnyNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Node+AnyNode.swift"; sourceTree = "<group>"; };
+		F1A7FFABD33020487B974B9D /* Label.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		F41D6A97A677528CF4A7EAA5 /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		F5C833BD12A43A10E880045D /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimationType.swift; sourceTree = "<group>"; };
+		F6F5435BF4A7B43738BFCEB9 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F95C52FA767C1075B14C1CB8 /* InternalNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InternalNode.swift; sourceTree = "<group>"; };
+		FA9C79AD7A1A3946407BC428 /* Array+Plastic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Plastic.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32C74623616ACBC879840C55 /* Frameworks */ = {
+		719183A78AC2E14FA9A563C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954CEB6025EDAE9A787FE5C4 /* Foundation.framework in Frameworks */,
-				9F0384D3F60FEF74198AB7D7 /* UIKit.framework in Frameworks */,
-				9E302E202B9091CF6288247A /* Pods_KatanaUI.framework in Frameworks */,
+				887E645048DC05FE0E7C8EF1 /* KatanaUI.framework in Frameworks */,
+				2755800832EF24640F5A8620 /* Foundation.framework in Frameworks */,
+				6D98B915846060D84CA71393 /* UIKit.framework in Frameworks */,
+				4D6CDC52E6028FA76A4D7A47 /* Pods_KatanaElements.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84897236D0FCE07A6BE88276 /* Frameworks */ = {
+		B30D78FB458AC7FBA66A92B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607B415B78037A19EBE9429C /* KatanaUI.framework in Frameworks */,
-				960283621C042DFC5396778D /* Foundation.framework in Frameworks */,
-				5918899116C48BED9D36C825 /* UIKit.framework in Frameworks */,
-				E1BE8D26BEB324AB9D3007DC /* Pods_KatanaElements.framework in Frameworks */,
+				1D966EB7E95EEA2918A613A6 /* KatanaUI.framework in Frameworks */,
+				D18C3EC119BF6C9B2CDA8AC8 /* KatanaElements.framework in Frameworks */,
+				5C8105C2F28CCD859811E8D5 /* Foundation.framework in Frameworks */,
+				A6E982B87DA3784101303D58 /* UIKit.framework in Frameworks */,
+				6F4A4CD0A2CCDD58F6F72552 /* Pods_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0E02DAB65427C628E85C010 /* Frameworks */ = {
+		CB7D8483265E9A66B59C15C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C34EF7F127870F8B38AB55 /* KatanaUI.framework in Frameworks */,
-				30ED6C082E86CF5F696E1F09 /* KatanaElements.framework in Frameworks */,
-				79AAFA25DDEC21C043336B14 /* Foundation.framework in Frameworks */,
-				979944C991461FF73171D50D /* UIKit.framework in Frameworks */,
-				5BF11113D2F1FFF0A70F14B0 /* Pods_Demo.framework in Frameworks */,
+				595FE82D918E911AF145877F /* Foundation.framework in Frameworks */,
+				74F433C25E74F6E6956E4C0E /* UIKit.framework in Frameworks */,
+				35600804079AAB3E528AE23B /* Pods_KatanaUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4D93E0D211C2EFCD6AF7409 /* Frameworks */ = {
+		D6B36C66B62F881358C60EB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4886760205481777937C46A3 /* KatanaUI.framework in Frameworks */,
-				C88730F4F0A54C17B215FA8C /* Foundation.framework in Frameworks */,
-				E42AC9A56023D1D4DDDA9796 /* UIKit.framework in Frameworks */,
-				3521B06D43059385B686EF59 /* Pods_KatanaUI_KatanaUITests.framework in Frameworks */,
+				7AC753E829D6A9FA665D958D /* KatanaUI.framework in Frameworks */,
+				C2F2419F2CEF6DD791BEB331 /* Foundation.framework in Frameworks */,
+				4A3CB98D56AE4C9B8ADEE007 /* UIKit.framework in Frameworks */,
+				9BFDA9F2F8CC25537250114A /* Pods_KatanaUI_KatanaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02203FA71A855FA5A599DC5B /* StoreConnection */ = {
+		05E2CD72795D20B4C30FDC13 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				2C643C96558DA3C5B7234149 /* ConnectedNodeDescription.swift */,
-			);
-			name = StoreConnection;
-			path = StoreConnection;
-			sourceTree = "<group>";
-		};
-		08E1DDBA972EE496399A3CF0 /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				37D852A5A17A2A7575F7F913 /* AnimationUtilsTests.swift */,
-				1DD6B7C10CAED70D25F9E1CC /* ChildrenAnimationsTests.swift */,
-			);
-			name = Animations;
-			path = Animations;
-			sourceTree = "<group>";
-		};
-		12A65CA73D556F2FAE64484D /* Node */ = {
-			isa = PBXGroup;
-			children = (
-				95B4B743EDB17C17CBBE30EE /* UIView+PlatformNativeView.swift */,
-				88E4F7FCEC82FE9957FA1FFD /* AnyNode.swift */,
-				D9CB382B154DDFC627185FBE /* InternalNode.swift */,
-				4832D542B716A6186021FB25 /* PlatformNativeView.swift */,
-				89B14E54217D2D163E615C4E /* Node+AnyNode.swift */,
-				0809CF3FD931A35ADC46D4D2 /* Node.swift */,
-			);
-			name = Node;
-			path = Node;
-			sourceTree = "<group>";
-		};
-		1479CD3FE839856A96DB8E5B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				CE7A1A6F305CC2F576B474E3 /* Collections+Katana.swift */,
-				749D21B0E2475F631ACF6F54 /* Int+Katana.swift */,
+				571DB57437926330E17A35B3 /* Collections.swift */,
 			);
 			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		163BBEA51093F23F9BDF9290 /* Models */ = {
+		19FE984E6721EF7B062A5C83 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4D30F1B2FABFE3C4AA8652BF /* HierarchyManagers.swift */,
+				E6C086D20152D221C57AFF32 /* Pods-Demo.debug.xcconfig */,
+				F6F5435BF4A7B43738BFCEB9 /* Pods-Demo.release.xcconfig */,
+				2508E9A3F3436E131B55054F /* Pods-KatanaElements.debug.xcconfig */,
+				0BAE92084166414C97D9CC71 /* Pods-KatanaElements.release.xcconfig */,
+				B08FFB79B9B7D479E9CF8B4A /* Pods-KatanaUI.debug.xcconfig */,
+				AF512061D18FC3ECE89D084F /* Pods-KatanaUI.release.xcconfig */,
+				3D854F3CEA1F39595484B545 /* Pods-KatanaUI-KatanaUITests.debug.xcconfig */,
+				5C19425920B1546E5953956E /* Pods-KatanaUI-KatanaUITests.release.xcconfig */,
 			);
-			name = Models;
-			path = Models;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		1A4C5080821A53D6600A2388 /* TouchHandler */ = {
+		1A63013420A9CC7F96E43CC8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				01D4A27367196CD511CA473B /* NativeTouchHandler.swift */,
-				D11BA310CCE8E1B39BAA228D /* TouchHandler.swift */,
-			);
-			name = TouchHandler;
-			path = TouchHandler;
-			sourceTree = "<group>";
-		};
-		1D99C257C30D88AD5AAE27FC /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				34CFBE20B7084E259295B025 /* Renderer */,
-				02203FA71A855FA5A599DC5B /* StoreConnection */,
-				8C820DCFD54C97CBBDFBF6BD /* NodeDescription */,
-				F8D27F29918BE8B330081645 /* Refs */,
-				12A65CA73D556F2FAE64484D /* Node */,
-				642DA38101FDC93055DE8741 /* Animations */,
+				8CEF2DEDD02BB741E42FD1EF /* Renderer */,
+				C979370350DABEBC6F0D028B /* StoreConnection */,
+				9C0D5164AE5570D3A1FF2613 /* NodeDescription */,
+				FE3E1C1FD4982FA0BB89641D /* Refs */,
+				8096C186E4BF78BD24447233 /* Node */,
+				5B8656DF6EAA99E94C5E54F1 /* Animations */,
 			);
 			name = Core;
 			path = Core;
 			sourceTree = "<group>";
 		};
-		22C32B0719605983E61561A0 /* Frameworks */ = {
+		28B7E4009A38E1987C98DA6E /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				874C02327553D341B811943D /* iOS */,
-				91DCF79A9DE19748EAF751E8 /* Pods_Demo.framework */,
-				7BF5A9B78E5ADEF8FAEC34BF /* Pods_KatanaElements.framework */,
-				F7DC3A935A2C592E0DA82959 /* Pods_KatanaUI.framework */,
-				2F4FBCC45C8EBBB79AD95737 /* Pods_KatanaUI_KatanaUITests.framework */,
+				A4AB2A3B46AA562914AFBCBD /* NodeDescriptionTest.swift */,
+				0CCD5591E8C390AF556797CF /* StateMockProviderTests.swift */,
+				5F5CA8ED67DA783796E0C0D6 /* NodeDescriptionShouldUpdateTests.swift */,
+				76F4BE21DA41C3E84F9C8574 /* NodeDescriptionLifecycleTests.swift */,
+				CA0C8113B5E5657CA89A3D35 /* RenderContainersTest.swift */,
+				5B918620FA1D3B4EA25B873A /* NodeTest.swift */,
 			);
-			name = Frameworks;
+			name = Core;
+			path = Core;
 			sourceTree = "<group>";
 		};
-		286EAF1685C813A5D9CABB76 /* KatanaTests */ = {
+		318AD766C1C1BCAABB822E6D /* Plastic */ = {
 			isa = PBXGroup;
 			children = (
-				08E1DDBA972EE496399A3CF0 /* Animations */,
-				7BF6E3C727C341DDC80A0876 /* Core */,
-				E93E471471C5DCDB42A3A1D5 /* Extensions */,
-				A6485F96401F3EBF085DA56B /* NodeDescriptions */,
-				6C40559D9EA899EA3F6031B9 /* Plastic */,
-			);
-			name = KatanaTests;
-			path = KatanaTests;
-			sourceTree = "<group>";
-		};
-		2F03931DB0FDD96C08D442EF /* Plastic */ = {
-			isa = PBXGroup;
-			children = (
-				C22DFF99864535886554B46C /* LayoutsCache.swift */,
-				D26FFD7D3E01AC980803F339 /* Anchor.swift */,
-				BF9D906FA119E35D089956B9 /* CoordinateConvertible.swift */,
-				60571567B0C60088C0A3EEB7 /* PlasticView.swift */,
-				56E855C979907C707C00FE4F /* EdgeInsets.swift */,
-				AD0D43DDB2E6EB0A310BEED9 /* Size.swift */,
-				E5154326F56B2CA383D168F1 /* PlasticView+Convenience.swift */,
-				3AC0068E1AB867BE6AF46395 /* PlasticNode.swift */,
-				29876CA5DE6CB3F6C4557AE2 /* ViewsContainer.swift */,
-				A95D2DE4B1228B2634A9898A /* ViewsContainer+Helpers.swift */,
-				CEBDBC7FA794D30CB669FC54 /* Array+Plastic.swift */,
-				5320826FE24B8663F206DF68 /* PlasticReferenceSizeable.swift */,
-				0483230A0CE2954C0FFD3D2E /* PlasticNodeDescription.swift */,
-				836D12407B94EB32159D6A8F /* Value.swift */,
+				6F3C3B48A0543FCB8DDB0D6A /* LayoutsCache.swift */,
+				A5FDA446B19DB5C62F90A2D0 /* Anchor.swift */,
+				157752F5EE1281F649374A99 /* CoordinateConvertible.swift */,
+				37DEA72C7AE521F075FB9D14 /* PlasticView.swift */,
+				153E9FDEAFD5F990014650A4 /* EdgeInsets.swift */,
+				400471A3B34668FD62C1FC9D /* Size.swift */,
+				048FF697B4F4747F481A7F38 /* PlasticView+Convenience.swift */,
+				217B13703174FC83783A2FA9 /* PlasticNode.swift */,
+				979E6EC201BD647A19D48675 /* ViewsContainer.swift */,
+				0D8AFB1907735C3D4DD4A33D /* ViewsContainer+Helpers.swift */,
+				FA9C79AD7A1A3946407BC428 /* Array+Plastic.swift */,
+				D56D1AC9D9747ED313A2A624 /* PlasticReferenceSizeable.swift */,
+				84D409F3C6D9AEAA59195D4C /* PlasticNodeDescription.swift */,
+				F41D6A97A677528CF4A7EAA5 /* Value.swift */,
 			);
 			name = Plastic;
 			path = Plastic;
 			sourceTree = "<group>";
 		};
-		34CFBE20B7084E259295B025 /* Renderer */ = {
+		4830E029D859397986A98F84 /* KatanaUI */ = {
 			isa = PBXGroup;
 			children = (
-				452E320313DAB0CD1F84E57B /* StateMockProvider.swift */,
-				A00E49ACFECE04BFF97CB874 /* Renderer.swift */,
-			);
-			name = Renderer;
-			path = Renderer;
-			sourceTree = "<group>";
-		};
-		642DA38101FDC93055DE8741 /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				3BD779553460655977DDDB7D /* ChildrenAnimations.swift */,
-				7F46491451D1DBBF84484DDD /* Animation.swift */,
-				A537CDC0F432F55C5EFCC2B0 /* AnimationPropsTransfomer.swift */,
-				2923F23DCC0873EBA8D40B24 /* AnimationType.swift */,
-				C331D3632E341B7FDF6D64ED /* AnimationUtils.swift */,
-				0A51460146A228468FCE0AC6 /* AnimationContainer.swift */,
-			);
-			name = Animations;
-			path = Animations;
-			sourceTree = "<group>";
-		};
-		682724A84EBE7B13F6B8E495 /* KatanaUI */ = {
-			isa = PBXGroup;
-			children = (
-				1D99C257C30D88AD5AAE27FC /* Core */,
-				1479CD3FE839856A96DB8E5B /* Extensions */,
-				2F03931DB0FDD96C08D442EF /* Plastic */,
-				DB76FC0877203797A315C253 /* Katana.h */,
+				1A63013420A9CC7F96E43CC8 /* Core */,
+				7F78BBE4E1BB788FF8244079 /* Extensions */,
+				318AD766C1C1BCAABB822E6D /* Plastic */,
+				03F421B8EC0FC649CCD9F127 /* Katana.h */,
 			);
 			name = KatanaUI;
 			path = KatanaUI;
 			sourceTree = "<group>";
 		};
-		6C40559D9EA899EA3F6031B9 /* Plastic */ = {
+		5B8656DF6EAA99E94C5E54F1 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				0CA6B64AC4DDB2AE9975238F /* PlasticDimensionsTests.swift */,
-				163BBEA51093F23F9BDF9290 /* Models */,
-				3B8339C82126AF3B334FC373 /* PlasticBasicLayoutTests.swift */,
-				BBA72F6AE86EE3CEFEE11DE5 /* PlasticConvenienceLayoutTests.swift */,
-				8369F94F851506902A9CE412 /* PlasticNodeTests.swift */,
-				790654ED44188AFA95670E6D /* PlasticContainerTests.swift */,
+				CFF82C96E5CF7DE159CF7241 /* ChildrenAnimations.swift */,
+				3285875A7F22305A49906C42 /* Animation.swift */,
+				4E40887A6E8A8E821817EF91 /* AnimationPropsTransfomer.swift */,
+				F5C833BD12A43A10E880045D /* AnimationType.swift */,
+				1F6DACD3934A672B58222D9C /* AnimationUtils.swift */,
+				14BF1CDDB9E850C671B240EB /* AnimationContainer.swift */,
 			);
-			name = Plastic;
-			path = Plastic;
+			name = Animations;
+			path = Animations;
 			sourceTree = "<group>";
 		};
-		7ACDA93ACB3EE41ACB427541 /* Pods */ = {
+		60510423ED06E8DD1FE93526 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D905D4C0AB826BB3633D79F /* Pods-Demo.debug.xcconfig */,
-				903FC51A62B470686DDC5933 /* Pods-Demo.release.xcconfig */,
-				395D53811886B00ADC46D8D0 /* Pods-KatanaElements.debug.xcconfig */,
-				94893C465437A8E800B77DBC /* Pods-KatanaElements.release.xcconfig */,
-				ABF753DB9D933E0BC2E2AB86 /* Pods-KatanaUI.debug.xcconfig */,
-				3039D643DE1AB380254AABBD /* Pods-KatanaUI.release.xcconfig */,
-				75D67DA9E3956045EEE05AB9 /* Pods-KatanaUI-KatanaUITests.debug.xcconfig */,
-				D98FC7EC67584EC7C9AAFA13 /* Pods-KatanaUI-KatanaUITests.release.xcconfig */,
+				DBB4BE27031204BA97911170 /* iOS */,
+				6876802C21448851E522838C /* Pods_Demo.framework */,
+				765D39B5E1D66EFEB075D836 /* Pods_KatanaElements.framework */,
+				6F29F6AAAB85F21BF964794E /* Pods_KatanaUI.framework */,
+				8DA06CB51C25C2DA8308851A /* Pods_KatanaUI_KatanaUITests.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7BF6E3C727C341DDC80A0876 /* Core */ = {
+		62B32E0DD419E6647C2102FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8E4A33CDFAAF57A43B19B6E7 /* NodeDescriptionTest.swift */,
-				36F647D62B4B8FCD06975397 /* StateMockProviderTests.swift */,
-				EFE56D6C39E659AAB0FB708A /* NodeDescriptionShouldUpdateTests.swift */,
-				1EF9BCA558FD7246C8D23634 /* NodeDescriptionLifecycleTests.swift */,
-				10A71BF24D57E417BA9E13A2 /* RenderContainersTest.swift */,
-				DE82FD9E6F0AF895FAA2B164 /* NodeTest.swift */,
+				E47E0A9535987DC8FD9AB0D5 /* KatanaUITests.xctest */,
+				806410F140E6C6B2FEC8733A /* KatanaUI.framework */,
+				2321C66A42823F940032E323 /* KatanaElements.framework */,
+				69188CD233FED7E917955DFE /* Demo.app */,
 			);
-			name = Core;
-			path = Core;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		874C02327553D341B811943D /* iOS */ = {
+		6F8BABA1432849CD8788AE0F /* TouchHandler */ = {
 			isa = PBXGroup;
 			children = (
-				E36CB86385FBF5AC1D612A16 /* Foundation.framework */,
-				26569D88863B1BB91EC59D85 /* UIKit.framework */,
+				23C08F1166F652816B3BE6A4 /* NativeTouchHandler.swift */,
+				0A078F93030AE9016E290C3D /* TouchHandler.swift */,
 			);
-			name = iOS;
+			name = TouchHandler;
+			path = TouchHandler;
 			sourceTree = "<group>";
 		};
-		8BB27216AB29659F22BC9976 /* Actions */ = {
+		7B0FA48F7C1D9DCA0711A58D /* KatanaElements */ = {
 			isa = PBXGroup;
 			children = (
-				914E479D956E5071AFD6430C /* IncrementCounter.swift */,
-				76C04627DF0FA7CC48893F1C /* DecrementCounter.swift */,
-			);
-			name = Actions;
-			path = Actions;
-			sourceTree = "<group>";
-		};
-		8C820DCFD54C97CBBDFBF6BD /* NodeDescription */ = {
-			isa = PBXGroup;
-			children = (
-				D70DB31DA1F05E82076CF572 /* Commons.swift */,
-				803D7AEEFD2856AFCF6BA6E8 /* NodeDescriptionWithChildren.swift */,
-				A76C2C53872140D2227D6836 /* NodeDescription.swift */,
-			);
-			name = NodeDescription;
-			path = NodeDescription;
-			sourceTree = "<group>";
-		};
-		907320E544D9C613AD3BC748 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				1A600EA8CA25DB5D88F8BB61 /* CounterScreen.swift */,
-			);
-			name = UI;
-			path = UI;
-			sourceTree = "<group>";
-		};
-		A6485F96401F3EBF085DA56B /* NodeDescriptions */ = {
-			isa = PBXGroup;
-			children = (
-				C27C50BF8CFC5F86F684C2B0 /* View.swift */,
-				67C4F2FA3C3B1349ABADCB8D /* Image.swift */,
-			);
-			name = NodeDescriptions;
-			path = NodeDescriptions;
-			sourceTree = "<group>";
-		};
-		B542CFE69C4FB91AA38BDB45 /* KatanaElements */ = {
-			isa = PBXGroup;
-			children = (
-				557018D581792A1B9F6A1741 /* Label.swift */,
-				8FA5913FDC724EA2507671FB /* View.swift */,
-				98B94DA4CCBB55A18C287CA0 /* TouchHandlerEvent.swift */,
-				DF9CD78AC17A0107D2940525 /* Image.swift */,
-				1A4C5080821A53D6600A2388 /* TouchHandler */,
-				E3FF9759576CF2EC14AAFD5C /* Table */,
-				22F6C7F6EB7CE70EFF1F57FE /* Highlightable.swift */,
-				71E8155EF835511C0CE4F53B /* NativeButton.swift */,
-				0D74AE3DF8F29A324B175E74 /* Buildable.swift */,
-				BC5F92B7811535BB188F892B /* Button.swift */,
-				1C4298AA4339F14E450D8BA0 /* KatanaElements.h */,
+				F1A7FFABD33020487B974B9D /* Label.swift */,
+				DD0CFF2687946CE518BD7FFD /* View.swift */,
+				2B94E3AA1A85E3A72405F40A /* TouchHandlerEvent.swift */,
+				9769B70F6542FAC4E7A8803E /* Image.swift */,
+				6F8BABA1432849CD8788AE0F /* TouchHandler */,
+				D535B8DBF9E7B97A13FACAD6 /* Table */,
+				2AFB49D5A1B808CF9F46A44F /* Highlightable.swift */,
+				1871EB3B7714B6487F4BE3B1 /* NativeButton.swift */,
+				C8BD62D0E9B870E376416B05 /* Buildable.swift */,
+				00226254144D3B5FD1493F94 /* Button.swift */,
+				905B522FBB9432C42B7D4678 /* KatanaElements.h */,
 			);
 			name = KatanaElements;
 			path = KatanaElements;
 			sourceTree = "<group>";
 		};
-		C1B8B5023E44B7944B1FC66A /* Products */ = {
+		7F78BBE4E1BB788FF8244079 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				448F23A89B1B560C669FDBEF /* KatanaUITests.xctest */,
-				C0E1084BEBC5DFB3F39F7A9F /* KatanaUI.framework */,
-				1F28F29D1942D1C5160EEC80 /* KatanaElements.framework */,
-				BE05D26B730538A7114AE175 /* Demo.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		DAE9E0114D6C794693D19027 /* State */ = {
-			isa = PBXGroup;
-			children = (
-				E7A965EA7A4E5901951E9AB9 /* CounterState.swift */,
-			);
-			name = State;
-			path = State;
-			sourceTree = "<group>";
-		};
-		E2F6530D72B07EFB8E82B9D5 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				907320E544D9C613AD3BC748 /* UI */,
-				DAE9E0114D6C794693D19027 /* State */,
-				8BB27216AB29659F22BC9976 /* Actions */,
-				0A8EE73CA0D0BBDAFDB347C9 /* AppDelegate.swift */,
-				1ED24642A92F2FC0E09A9E7F /* LaunchScreen.storyboard */,
-			);
-			name = Demo;
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		E3FF9759576CF2EC14AAFD5C /* Table */ = {
-			isa = PBXGroup;
-			children = (
-				2DA9928F0366B46B6DF6AAC1 /* NativeTable.swift */,
-				4120E33BFB0317D1F9238EF9 /* Table.swift */,
-				B70DA02B2E7719EFE35A0482 /* TableDelegate.swift */,
-				415612B196136B8763D2B551 /* TableCell.swift */,
-				8B4494728AD5B2DECDFB1759 /* NativeTableWrapperCell.swift */,
-			);
-			name = Table;
-			path = Table;
-			sourceTree = "<group>";
-		};
-		E508DEDFACA7203FB1C2C8AE = {
-			isa = PBXGroup;
-			children = (
-				C1B8B5023E44B7944B1FC66A /* Products */,
-				22C32B0719605983E61561A0 /* Frameworks */,
-				286EAF1685C813A5D9CABB76 /* KatanaTests */,
-				682724A84EBE7B13F6B8E495 /* KatanaUI */,
-				B542CFE69C4FB91AA38BDB45 /* KatanaElements */,
-				E2F6530D72B07EFB8E82B9D5 /* Demo */,
-				7ACDA93ACB3EE41ACB427541 /* Pods */,
-			);
-			sourceTree = "<group>";
-		};
-		E93E471471C5DCDB42A3A1D5 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				AB0C455547028BDF31B071AD /* Collections.swift */,
+				0F1B4116E2FAFA12C7CDC534 /* Collections+Katana.swift */,
+				CF3501CF6BB863B7C5403FFC /* Int+Katana.swift */,
 			);
 			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		F8D27F29918BE8B330081645 /* Refs */ = {
+		8096C186E4BF78BD24447233 /* Node */ = {
 			isa = PBXGroup;
 			children = (
-				7C1D2B412C1C7FDABDEBFB81 /* Refs.swift */,
+				484A8A59DACD2B7DD06DB509 /* UIView+PlatformNativeView.swift */,
+				48BC8F27061A08B12E08BA73 /* AnyNode.swift */,
+				F95C52FA767C1075B14C1CB8 /* InternalNode.swift */,
+				4F1967AAFCA4737296E1BC60 /* PlatformNativeView.swift */,
+				EFC6CBB6ED5B5F911BFD3683 /* Node+AnyNode.swift */,
+				3913303F7ED7228AAE9BF14C /* Node.swift */,
+			);
+			name = Node;
+			path = Node;
+			sourceTree = "<group>";
+		};
+		8CEF2DEDD02BB741E42FD1EF /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				2AA4193CD847A18B0F82603B /* StateMockProvider.swift */,
+				A9EA372246578DC5F601657A /* Renderer.swift */,
+			);
+			name = Renderer;
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		97520123271B252544E3DBA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DE6252B6AAF2C9F4C57D637 /* HierarchyManagers.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		986A8E067C5A1129CFAC57BC /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				C2C499D1A7F36E6A7282F214 /* IncrementCounter.swift */,
+				2F8E293FB1841A1002599EB6 /* DecrementCounter.swift */,
+			);
+			name = Actions;
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		9C0D5164AE5570D3A1FF2613 /* NodeDescription */ = {
+			isa = PBXGroup;
+			children = (
+				0CC677BBA59E462B3844C2BB /* Commons.swift */,
+				688638DD121C8FF7F6C8368A /* NodeDescriptionWithChildren.swift */,
+				4FB5FD539D311A11BE2B8C9C /* NodeDescription.swift */,
+			);
+			name = NodeDescription;
+			path = NodeDescription;
+			sourceTree = "<group>";
+		};
+		BCA16B239361BC8013FA2378 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EF043DEA5DFB03D30CC0D8F4 /* UI */,
+				FEFE7F43F124A1E6CAE0F9C3 /* State */,
+				986A8E067C5A1129CFAC57BC /* Actions */,
+				CEFED3A9545C3811BD17756F /* AppDelegate.swift */,
+				AD4E69247C5D8A0DD1CFA607 /* LaunchScreen.storyboard */,
+			);
+			name = Demo;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		BF32645FEC5DEA9F571E5C2E /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD928A1BB4D99DC7B1A43A /* AnimationUtilsTests.swift */,
+				0C6A992E32C38005C6656A4E /* ChildrenAnimationsTests.swift */,
+			);
+			name = Animations;
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		C979370350DABEBC6F0D028B /* StoreConnection */ = {
+			isa = PBXGroup;
+			children = (
+				BE1151448C5D92323FB4DF3E /* ConnectedNodeDescription.swift */,
+			);
+			name = StoreConnection;
+			path = StoreConnection;
+			sourceTree = "<group>";
+		};
+		CFB9E04F15A53CBF8FBBDE77 = {
+			isa = PBXGroup;
+			children = (
+				62B32E0DD419E6647C2102FA /* Products */,
+				E1C545ACB6B731B81B33A7CC /* KatanaTests */,
+				4830E029D859397986A98F84 /* KatanaUI */,
+				7B0FA48F7C1D9DCA0711A58D /* KatanaElements */,
+				BCA16B239361BC8013FA2378 /* Demo */,
+				60510423ED06E8DD1FE93526 /* Frameworks */,
+				19FE984E6721EF7B062A5C83 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D535B8DBF9E7B97A13FACAD6 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				92E7DF9088F22090655BB8CD /* NativeTable.swift */,
+				CDB47B38E30DFF3AEB00691F /* Table.swift */,
+				B7DA92C224B84DAEA5299168 /* TableDelegate.swift */,
+				16C6F3C69C3707235D4B4DE6 /* TableCell.swift */,
+				B2AB611B4043CED7E7D18153 /* NativeTableWrapperCell.swift */,
+			);
+			name = Table;
+			path = Table;
+			sourceTree = "<group>";
+		};
+		DBB4BE27031204BA97911170 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E25703559EA04771CF93C03A /* Foundation.framework */,
+				3F8B0E722203C73819A64CE1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEDF9C722317890185EE1B66 /* Plastic */ = {
+			isa = PBXGroup;
+			children = (
+				B181E77C09D019A6D3EB89DC /* PlasticDimensionsTests.swift */,
+				97520123271B252544E3DBA3 /* Models */,
+				DC0874C69C993C2268476B68 /* PlasticBasicLayoutTests.swift */,
+				C693E81FA2313CD5464E71D5 /* PlasticConvenienceLayoutTests.swift */,
+				2926438A9523682B89F0F0E5 /* PlasticNodeTests.swift */,
+				7EA0F741D867D574C9104CD9 /* PlasticContainerTests.swift */,
+			);
+			name = Plastic;
+			path = Plastic;
+			sourceTree = "<group>";
+		};
+		E1C545ACB6B731B81B33A7CC /* KatanaTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF32645FEC5DEA9F571E5C2E /* Animations */,
+				28B7E4009A38E1987C98DA6E /* Core */,
+				05E2CD72795D20B4C30FDC13 /* Extensions */,
+				F35857D697AF5901DEE97E37 /* NodeDescriptions */,
+				DEDF9C722317890185EE1B66 /* Plastic */,
+			);
+			name = KatanaTests;
+			path = KatanaTests;
+			sourceTree = "<group>";
+		};
+		EF043DEA5DFB03D30CC0D8F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B0324BC5CAD4BD233BE83 /* CounterScreen.swift */,
+			);
+			name = UI;
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F35857D697AF5901DEE97E37 /* NodeDescriptions */ = {
+			isa = PBXGroup;
+			children = (
+				17930130DF0B31675698FC3F /* View.swift */,
+				DFAD0229DE180B0A0687A86E /* Image.swift */,
+			);
+			name = NodeDescriptions;
+			path = NodeDescriptions;
+			sourceTree = "<group>";
+		};
+		FE3E1C1FD4982FA0BB89641D /* Refs */ = {
+			isa = PBXGroup;
+			children = (
+				5035AE6D1736FC6D4A02F385 /* Refs.swift */,
 			);
 			name = Refs;
 			path = Refs;
 			sourceTree = "<group>";
 		};
+		FEFE7F43F124A1E6CAE0F9C3 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				38BF1F0E8E685293A3A97368 /* CounterState.swift */,
+			);
+			name = State;
+			path = State;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		45598279BE256D343F01C3D6 /* Headers */ = {
+		6D0304088933C9FB1DF4B08D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDA09124AA09BD980D334D18 /* KatanaElements.h in Headers */,
+				DDED7292830530DF4621CF24 /* KatanaElements.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8EC3252511C54CE3CD7B277 /* Headers */ = {
+		BE18A9F26B596B9CA693FF74 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DABAD66ABD695AB4C5DA248F /* Katana.h in Headers */,
+				5FC41765676780048D40F33E /* Katana.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D10C2FB2C03906C89D038BF /* KatanaUI */ = {
+		2A070AED2AEC7E9C27A709D1 /* KatanaUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDA10D48DBA710FAE1AE5C20 /* Build configuration list for PBXNativeTarget "KatanaUI" */;
+			buildConfigurationList = A2CFF09B42BBF66B4BE6B99D /* Build configuration list for PBXNativeTarget "KatanaUI" */;
 			buildPhases = (
-				A864BC7230C23CAA494BC155 /* [CP] Check Pods Manifest.lock */,
-				32C74623616ACBC879840C55 /* Frameworks */,
-				5F765EA53A31693071BACF04 /* Sources */,
-				D8EC3252511C54CE3CD7B277 /* Headers */,
-				CD600E8D612F8AEDBD700CB0 /* [CP] Copy Pods Resources */,
+				23D9073E4D57125C4CB296C3 /* [CP] Check Pods Manifest.lock */,
+				612CC5B7B0755CD1C0925522 /* Sources */,
+				CB7D8483265E9A66B59C15C1 /* Frameworks */,
+				BE18A9F26B596B9CA693FF74 /* Headers */,
+				7573F7E0AF78246576E5B434 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -659,230 +659,113 @@
 			);
 			name = KatanaUI;
 			productName = KatanaUI;
-			productReference = C0E1084BEBC5DFB3F39F7A9F /* KatanaUI.framework */;
+			productReference = 806410F140E6C6B2FEC8733A /* KatanaUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		486015A33B5F1317CBDD7697 /* Demo */ = {
+		31456B35CE94661B4C327AC1 /* KatanaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BD23EAB3CBAECAB72E49B187 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildConfigurationList = 1827E7ED4FBA61CEDC9B79B5 /* Build configuration list for PBXNativeTarget "KatanaUITests" */;
 			buildPhases = (
-				F81C8E4FC5A9C182D4180503 /* [CP] Check Pods Manifest.lock */,
-				A0E02DAB65427C628E85C010 /* Frameworks */,
-				79A3EA70B531B5131AF7B903 /* Sources */,
-				C2D4B4B5198B0563FCCD7287 /* Resources */,
-				4FAFB90B456A871664C01DBF /* [CP] Embed Pods Frameworks */,
-				F77D95B1C48E95A71E939160 /* [CP] Copy Pods Resources */,
+				123BBF4DE60ABF1C81E8A324 /* [CP] Check Pods Manifest.lock */,
+				D6B36C66B62F881358C60EB7 /* Frameworks */,
+				22C2B031B91A3446B3F06180 /* Sources */,
+				CAD8D0E6340B5D74FFD2D7AD /* [CP] Embed Pods Frameworks */,
+				EC224809DC5D81F649BEF9D9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F7F9FDDFAAD688ECFF6F940 /* PBXTargetDependency */,
-				EB818B548C0F8C998D2DBCAE /* PBXTargetDependency */,
-			);
-			name = Demo;
-			productName = Demo;
-			productReference = BE05D26B730538A7114AE175 /* Demo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		826593E8FBA44723AE2BB3A6 /* KatanaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0644EACA66D0B5B51C4E85F2 /* Build configuration list for PBXNativeTarget "KatanaUITests" */;
-			buildPhases = (
-				E3583626CCE2CEDD5C297623 /* [CP] Check Pods Manifest.lock */,
-				E4D93E0D211C2EFCD6AF7409 /* Frameworks */,
-				31DF08B7992DC4BEAB5E01D5 /* Sources */,
-				355F3DDA79BA1DC9FD1D9AA9 /* [CP] Embed Pods Frameworks */,
-				23D672C372B1CCF368B0668F /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4888047EFB57B38DDFF10496 /* PBXTargetDependency */,
+				D8FF2640F133BAB96583160B /* PBXTargetDependency */,
 			);
 			name = KatanaUITests;
 			productName = KatanaUITests;
-			productReference = 448F23A89B1B560C669FDBEF /* KatanaUITests.xctest */;
+			productReference = E47E0A9535987DC8FD9AB0D5 /* KatanaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AD6DDCF241B453746CB49BD8 /* KatanaElements */ = {
+		3B4EF1D845345E443576F599 /* KatanaElements */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A354B7470FEEF809FD41D94C /* Build configuration list for PBXNativeTarget "KatanaElements" */;
+			buildConfigurationList = 78B56787553AC8F7F13B0757 /* Build configuration list for PBXNativeTarget "KatanaElements" */;
 			buildPhases = (
-				016AC0A8211BD9EE4959ACA6 /* [CP] Check Pods Manifest.lock */,
-				84897236D0FCE07A6BE88276 /* Frameworks */,
-				D3696FB870DEBDF68E5CCC9D /* Sources */,
-				45598279BE256D343F01C3D6 /* Headers */,
-				648381581D4DA692740AB886 /* [CP] Copy Pods Resources */,
+				FF07587890589EEB4DDB18D2 /* [CP] Check Pods Manifest.lock */,
+				719183A78AC2E14FA9A563C9 /* Frameworks */,
+				A504486F0FD34E23DEE083B4 /* Sources */,
+				6D0304088933C9FB1DF4B08D /* Headers */,
+				BB830A3D18E3C038D29DAADD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2E471C5AAD45F7E8004C5855 /* PBXTargetDependency */,
+				046A3929A40CB123C60454C4 /* PBXTargetDependency */,
 			);
 			name = KatanaElements;
 			productName = KatanaElements;
-			productReference = 1F28F29D1942D1C5160EEC80 /* KatanaElements.framework */;
+			productReference = 2321C66A42823F940032E323 /* KatanaElements.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		B8928C9DDB774499CB3F5FD4 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAEF1B6209596DADB672DFE2 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				74D1BE34AC4853AC2204A822 /* [CP] Check Pods Manifest.lock */,
+				B30D78FB458AC7FBA66A92B2 /* Frameworks */,
+				7484FFEEDAD581ADF3868B81 /* Sources */,
+				38421A1A235895D768913C56 /* Resources */,
+				BF000F4A23EDBE8BBD18A5D3 /* [CP] Embed Pods Frameworks */,
+				BB39B1D932D30C3E54268C69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0793851E5FDAD0D1B53FD0 /* PBXTargetDependency */,
+				789152567797C1E7EA81E49F /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 69188CD233FED7E917955DFE /* Demo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		75E3F1E538B8CD3AC1319813 /* Project object */ = {
+		87B783410A321D640CD8F0D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = BE347DBB0310CA01ED2019E5 /* Build configuration list for PBXProject "KatanaUI" */;
+			buildConfigurationList = 43F9A623709F85BB30CF1851 /* Build configuration list for PBXProject "KatanaUI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E508DEDFACA7203FB1C2C8AE;
-			productRefGroup = C1B8B5023E44B7944B1FC66A /* Products */;
+			mainGroup = CFB9E04F15A53CBF8FBBDE77;
+			productRefGroup = 62B32E0DD419E6647C2102FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				826593E8FBA44723AE2BB3A6 /* KatanaUITests */,
-				1D10C2FB2C03906C89D038BF /* KatanaUI */,
-				AD6DDCF241B453746CB49BD8 /* KatanaElements */,
-				486015A33B5F1317CBDD7697 /* Demo */,
+				31456B35CE94661B4C327AC1 /* KatanaUITests */,
+				2A070AED2AEC7E9C27A709D1 /* KatanaUI */,
+				3B4EF1D845345E443576F599 /* KatanaElements */,
+				B8928C9DDB774499CB3F5FD4 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2D4B4B5198B0563FCCD7287 /* Resources */ = {
+		38421A1A235895D768913C56 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185E31DA550FD907295ADA98 /* LaunchScreen.storyboard in Resources */,
+				416E21D40F7F168FB50EFB1D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		016AC0A8211BD9EE4959ACA6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KatanaElements-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		23D672C372B1CCF368B0668F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		355F3DDA79BA1DC9FD1D9AA9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Katana/Katana.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Katana.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4FAFB90B456A871664C01DBF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Katana/Katana.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Katana.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		648381581D4DA692740AB886 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaElements/Pods-KatanaElements-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A864BC7230C23CAA494BC155 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-KatanaUI-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CD600E8D612F8AEDBD700CB0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI/Pods-KatanaUI-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E3583626CCE2CEDD5C297623 /* [CP] Check Pods Manifest.lock */ = {
+		123BBF4DE60ABF1C81E8A324 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -900,22 +783,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F77D95B1C48E95A71E939160 /* [CP] Copy Pods Resources */ = {
+		23D9073E4D57125C4CB296C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatanaUI-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F81C8E4FC5A9C182D4180503 /* [CP] Check Pods Manifest.lock */ = {
+		74D1BE34AC4853AC2204A822 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -933,140 +819,322 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7573F7E0AF78246576E5B434 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI/Pods-KatanaUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB39B1D932D30C3E54268C69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB830A3D18E3C038D29DAADD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaElements/Pods-KatanaElements-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF000F4A23EDBE8BBD18A5D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Katana/Katana.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Katana.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo/Pods-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD8D0E6340B5D74FFD2D7AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Katana/Katana.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Katana.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC224809DC5D81F649BEF9D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KatanaUI-KatanaUITests/Pods-KatanaUI-KatanaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF07587890589EEB4DDB18D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatanaElements-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31DF08B7992DC4BEAB5E01D5 /* Sources */ = {
+		22C2B031B91A3446B3F06180 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C5D1E85EB4B2C771D708DE /* AnimationUtilsTests.swift in Sources */,
-				A67871A7EA6120B67B70E8FB /* ChildrenAnimationsTests.swift in Sources */,
-				DBE7A58A8150A3932CF8F21A /* NodeDescriptionTest.swift in Sources */,
-				7D34197DE12809EF541EEC30 /* StateMockProviderTests.swift in Sources */,
-				1A84A61A180C64984B53DF55 /* NodeDescriptionShouldUpdateTests.swift in Sources */,
-				C18592E6E5542738ED6F1528 /* NodeDescriptionLifecycleTests.swift in Sources */,
-				883BB08A61ABEC566324881C /* RenderContainersTest.swift in Sources */,
-				228C8DC158155EBD3D0C16A7 /* NodeTest.swift in Sources */,
-				DFAAC45CC4AA485BA3823D1A /* Collections.swift in Sources */,
-				C63F852F7729ABC93CF11EBE /* View.swift in Sources */,
-				9CFF1B4121541F8F186B0466 /* Image.swift in Sources */,
-				0A54578C424D44E24AE7B908 /* PlasticDimensionsTests.swift in Sources */,
-				8EDDA09F5FB699365761D1E1 /* HierarchyManagers.swift in Sources */,
-				A8C3D8CB02256996F2BD1173 /* PlasticBasicLayoutTests.swift in Sources */,
-				A6DE3C092A34251C879D4CE8 /* PlasticConvenienceLayoutTests.swift in Sources */,
-				D88A143BE71B3B7A07AC5DCF /* PlasticNodeTests.swift in Sources */,
-				947BBBF7A7B9B0DAB0A1D7D5 /* PlasticContainerTests.swift in Sources */,
+				8A0D60796905256C7354AB4F /* AnimationUtilsTests.swift in Sources */,
+				094B8996AC32A2F518977CB0 /* ChildrenAnimationsTests.swift in Sources */,
+				3016778724C1040B9AC20E51 /* NodeDescriptionTest.swift in Sources */,
+				55E8817C6432358E4AB81F07 /* StateMockProviderTests.swift in Sources */,
+				B9C92D92513BB676004FCF15 /* NodeDescriptionShouldUpdateTests.swift in Sources */,
+				9637BE8312A2477346F85A71 /* NodeDescriptionLifecycleTests.swift in Sources */,
+				E707E238D0C57A84DE626BA9 /* RenderContainersTest.swift in Sources */,
+				5EB8635AF2524BBD84DB4BFF /* NodeTest.swift in Sources */,
+				D5DC16B40C10A83FC248F03D /* Collections.swift in Sources */,
+				647FA89C1410C3F88E3A68B4 /* View.swift in Sources */,
+				27A875755BA14762C33DB0A4 /* Image.swift in Sources */,
+				6686F6B6E8D63998E7F407CC /* PlasticDimensionsTests.swift in Sources */,
+				0439E69A49E598199290A97E /* HierarchyManagers.swift in Sources */,
+				E32C63943A09463DA0FD7142 /* PlasticBasicLayoutTests.swift in Sources */,
+				A79BBFF00ECA64ACC8232AF1 /* PlasticConvenienceLayoutTests.swift in Sources */,
+				A548090B7222398D5675D508 /* PlasticNodeTests.swift in Sources */,
+				A53A221EE31CB083A8CA04C0 /* PlasticContainerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F765EA53A31693071BACF04 /* Sources */ = {
+		612CC5B7B0755CD1C0925522 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A52CE99929E404C19F44D30 /* StateMockProvider.swift in Sources */,
-				B7993B58E7BF8CA95C59594F /* Renderer.swift in Sources */,
-				41F57B2C815D9DCD118D4622 /* ConnectedNodeDescription.swift in Sources */,
-				16E1F6E6072E5C0E2BC038B6 /* Commons.swift in Sources */,
-				D2758BFD77A4D0655CFDAF4A /* NodeDescriptionWithChildren.swift in Sources */,
-				30B2A4F3D37495B28D68C1E3 /* NodeDescription.swift in Sources */,
-				314906B82C4BA20E75354866 /* Refs.swift in Sources */,
-				95E1F0332D072C2AE931F05A /* UIView+PlatformNativeView.swift in Sources */,
-				0CFA8C658595E079DD159B05 /* AnyNode.swift in Sources */,
-				E30F6A91DA8C1A8818C5A7CA /* InternalNode.swift in Sources */,
-				23053535E22C561249C08CA8 /* PlatformNativeView.swift in Sources */,
-				9FA593E25FFF14BD09716FC9 /* Node+AnyNode.swift in Sources */,
-				E16697B00DFD78E7EE44BDE7 /* Node.swift in Sources */,
-				1B1288304711AC315852C005 /* ChildrenAnimations.swift in Sources */,
-				5CE7F15704B2B15F582B4DF9 /* Animation.swift in Sources */,
-				20C6772C50F2DEE9CBB1B323 /* AnimationPropsTransfomer.swift in Sources */,
-				7B9F04BCCCA91F47CA18892B /* AnimationType.swift in Sources */,
-				F7F168B9B27CABBB19A802A5 /* AnimationUtils.swift in Sources */,
-				8BC372C0192727D889A3EB64 /* AnimationContainer.swift in Sources */,
-				659B2D3ACBB8DF2B27F89513 /* Collections+Katana.swift in Sources */,
-				FA0C3896CDCA2080FE1ECFF8 /* Int+Katana.swift in Sources */,
-				30F1E55B3D47B228A575430D /* LayoutsCache.swift in Sources */,
-				043C329D8645938571D7C1D1 /* Anchor.swift in Sources */,
-				7D5F660CA7105C8DA4479436 /* CoordinateConvertible.swift in Sources */,
-				A5279E690C71C7129B17C540 /* PlasticView.swift in Sources */,
-				A5A085F69366C9500E375B98 /* EdgeInsets.swift in Sources */,
-				B6FCA7D9A84426184010F1ED /* Size.swift in Sources */,
-				75B0DA43C7C7D1B7AAE2EBF5 /* PlasticView+Convenience.swift in Sources */,
-				CF84FBF03BB750E033B838F5 /* PlasticNode.swift in Sources */,
-				755C2DDC2BB00EE754EBE9AC /* ViewsContainer.swift in Sources */,
-				0283057F69C21F3153317137 /* ViewsContainer+Helpers.swift in Sources */,
-				CC1F11A7AAE61D53A22CF3DC /* Array+Plastic.swift in Sources */,
-				2C596CBA836036DE1F33D4DF /* PlasticReferenceSizeable.swift in Sources */,
-				E45E501ADCEA87370ABE5F30 /* PlasticNodeDescription.swift in Sources */,
-				B373B68CE17D669EEBC6F1F3 /* Value.swift in Sources */,
+				081F1FF00690F3CE66E1AAF5 /* StateMockProvider.swift in Sources */,
+				E7026EA0C4BACD0636CDF482 /* Renderer.swift in Sources */,
+				9663BBBA91D9CEDF830B8985 /* ConnectedNodeDescription.swift in Sources */,
+				EB4CFF0A0C96C038B53D046B /* Commons.swift in Sources */,
+				1DA5BCAB6091C970BFA8B1B1 /* NodeDescriptionWithChildren.swift in Sources */,
+				FF794D5B264CEFC5A4E97F19 /* NodeDescription.swift in Sources */,
+				747E8709E19A754D6B0801C0 /* Refs.swift in Sources */,
+				F5274DC6C5093F0C2581CF73 /* UIView+PlatformNativeView.swift in Sources */,
+				0E0ADFF84F4A7D77E32441FB /* AnyNode.swift in Sources */,
+				2430AD063CF0409A211D4C42 /* InternalNode.swift in Sources */,
+				FF42E2138BF7D932146E045C /* PlatformNativeView.swift in Sources */,
+				A9960DB1A4C222373705645D /* Node+AnyNode.swift in Sources */,
+				FF2EBCDC59F03C400F0ADC31 /* Node.swift in Sources */,
+				088DC79414BC7A82A54B48C1 /* ChildrenAnimations.swift in Sources */,
+				D7E57F280AB18CE0115108EB /* Animation.swift in Sources */,
+				F60ABE209609CCFAF3C09620 /* AnimationPropsTransfomer.swift in Sources */,
+				E216AFF3EAF45CC71EBBDB1B /* AnimationType.swift in Sources */,
+				2BAED20CB5A4E97EFB8BC9F0 /* AnimationUtils.swift in Sources */,
+				2C3FB4337613C1171A35477A /* AnimationContainer.swift in Sources */,
+				266088EB544FCBBF3AFA3716 /* Collections+Katana.swift in Sources */,
+				78637FE99966CC2D6C9F4B15 /* Int+Katana.swift in Sources */,
+				5677325DD1EDB07B39749EB5 /* LayoutsCache.swift in Sources */,
+				05E548CAA29845F7F7CF11C5 /* Anchor.swift in Sources */,
+				9122EDA9F3C2587C7FB96577 /* CoordinateConvertible.swift in Sources */,
+				AF58DE758C9A7FB4651D37FC /* PlasticView.swift in Sources */,
+				5C7C5BA4E294624E51CC618E /* EdgeInsets.swift in Sources */,
+				5081CA7F427B8BAE84413988 /* Size.swift in Sources */,
+				75A2633EA3BAB060161C3631 /* PlasticView+Convenience.swift in Sources */,
+				A8BAFDD0A3F45DA271577398 /* PlasticNode.swift in Sources */,
+				B8A3461A883C17126352B7F2 /* ViewsContainer.swift in Sources */,
+				4CEC33E50725F00DEC282B00 /* ViewsContainer+Helpers.swift in Sources */,
+				E64EB0D815BCAB5607AED6BA /* Array+Plastic.swift in Sources */,
+				870652B309494591EA26228B /* PlasticReferenceSizeable.swift in Sources */,
+				E24B4295290ADFE92A1FEE42 /* PlasticNodeDescription.swift in Sources */,
+				524D2325F292E935A7535C24 /* Value.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79A3EA70B531B5131AF7B903 /* Sources */ = {
+		7484FFEEDAD581ADF3868B81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C009605156D4357FDE135C80 /* CounterScreen.swift in Sources */,
-				8B69A03AE736B9F1C4B241C1 /* CounterState.swift in Sources */,
-				DBAB0530520C5520AE93B884 /* IncrementCounter.swift in Sources */,
-				C80F86B3AAB9C345899BA924 /* DecrementCounter.swift in Sources */,
-				F44D55C445C466474F88584A /* AppDelegate.swift in Sources */,
+				EA8DCF4F3BDD377C913253DA /* CounterScreen.swift in Sources */,
+				13A8EBBE96E87033FDF71AE0 /* CounterState.swift in Sources */,
+				64EA9A2F52EB5834521041BB /* IncrementCounter.swift in Sources */,
+				4C08DB578A9A336E67ABC4D6 /* DecrementCounter.swift in Sources */,
+				0FF5C5AD0810F536A2507845 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3696FB870DEBDF68E5CCC9D /* Sources */ = {
+		A504486F0FD34E23DEE083B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2DCABFFA52DA476B9A6C13F /* Label.swift in Sources */,
-				177F4FD918F0E54F3559F18E /* View.swift in Sources */,
-				9CADF6B42D32AADC3253C66C /* TouchHandlerEvent.swift in Sources */,
-				2F4B7E46CEC3AC9AAF550933 /* Image.swift in Sources */,
-				DFF94B4C26C221BDF2BB2270 /* NativeTouchHandler.swift in Sources */,
-				0AA307CBBB624289EF689B20 /* TouchHandler.swift in Sources */,
-				F9953B209C546A6E0AC9A726 /* NativeTable.swift in Sources */,
-				FA191188E8E0192F77B31421 /* Table.swift in Sources */,
-				16995F3D64D4323D4113AD00 /* TableDelegate.swift in Sources */,
-				42BF1DD3A70AF4D917AA3E27 /* TableCell.swift in Sources */,
-				CEACA35D570647CC43E49BA8 /* NativeTableWrapperCell.swift in Sources */,
-				5917C7F9470BE23FCAF421AA /* Highlightable.swift in Sources */,
-				6A37E9FDD9333B0916036C8F /* NativeButton.swift in Sources */,
-				3CA57072D4BF234D95FFA90C /* Buildable.swift in Sources */,
-				DA06F439094B7508FC73E02E /* Button.swift in Sources */,
+				A23EA5439F9B97597701CF06 /* Label.swift in Sources */,
+				476926F2D2A74B1A48DC4D9E /* View.swift in Sources */,
+				FD16CDA65219AA6DDE66283F /* TouchHandlerEvent.swift in Sources */,
+				FBA651E81DA621EB95F417A3 /* Image.swift in Sources */,
+				D188B04DC70224B6403B6C62 /* NativeTouchHandler.swift in Sources */,
+				21939D4953B6342E35475EEA /* TouchHandler.swift in Sources */,
+				74B5C3F70906C7D364432053 /* NativeTable.swift in Sources */,
+				32BFCCC9E3DCCB9F4BBF0DAC /* Table.swift in Sources */,
+				6E9A6E28113A6A5CDD07DCDB /* TableDelegate.swift in Sources */,
+				0304CDC21CEEEE200AF99D37 /* TableCell.swift in Sources */,
+				B89D7DEFB853EA4C5C975B44 /* NativeTableWrapperCell.swift in Sources */,
+				A0682B004374E93EC1629555 /* Highlightable.swift in Sources */,
+				5383B10BEE7904CCEF7CCD77 /* NativeButton.swift in Sources */,
+				CEDDE5460A557BCC3EF53B99 /* Buildable.swift in Sources */,
+				CA4403EF0C7FCB95D15834C3 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E471C5AAD45F7E8004C5855 /* PBXTargetDependency */ = {
+		046A3929A40CB123C60454C4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KatanaUI;
-			target = 1D10C2FB2C03906C89D038BF /* KatanaUI */;
-			targetProxy = 60B9F3CC028A158CB68A4A2C /* PBXContainerItemProxy */;
+			target = 2A070AED2AEC7E9C27A709D1 /* KatanaUI */;
+			targetProxy = 897216F9818B663EA45DBCA7 /* PBXContainerItemProxy */;
 		};
-		4888047EFB57B38DDFF10496 /* PBXTargetDependency */ = {
+		1E0793851E5FDAD0D1B53FD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KatanaUI;
-			target = 1D10C2FB2C03906C89D038BF /* KatanaUI */;
-			targetProxy = CFCA382E0C763DE99C05D731 /* PBXContainerItemProxy */;
+			target = 2A070AED2AEC7E9C27A709D1 /* KatanaUI */;
+			targetProxy = ADC280E7D2C2E42EB6B38886 /* PBXContainerItemProxy */;
 		};
-		8F7F9FDDFAAD688ECFF6F940 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KatanaUI;
-			target = 1D10C2FB2C03906C89D038BF /* KatanaUI */;
-			targetProxy = BD882956D4F4F7EE732C630C /* PBXContainerItemProxy */;
-		};
-		EB818B548C0F8C998D2DBCAE /* PBXTargetDependency */ = {
+		789152567797C1E7EA81E49F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KatanaElements;
-			target = AD6DDCF241B453746CB49BD8 /* KatanaElements */;
-			targetProxy = EC9446388CFE33B6A2615930 /* PBXContainerItemProxy */;
+			target = 3B4EF1D845345E443576F599 /* KatanaElements */;
+			targetProxy = 65A7093CFC7693A0C3EBC8EA /* PBXContainerItemProxy */;
+		};
+		D8FF2640F133BAB96583160B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KatanaUI;
+			target = 2A070AED2AEC7E9C27A709D1 /* KatanaUI */;
+			targetProxy = 74215B570A780D1B8FEBA8BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12A76BDF4CCA1AC7937D418E /* Debug */ = {
+		1106A4F83D9B0CCADA4FCB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E3454726D87F446FD56904E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F5435BF4A7B43738BFCEB9 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bendingspoons.Demo;
+				PRODUCT_NAME = Demo;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EA604FB69621962BF66CCC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1122,91 +1190,9 @@
 			};
 			name = Debug;
 		};
-		3192DCD6683A37EBC54F89E0 /* Debug */ = {
+		20281463083213034EC567AA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75D67DA9E3956045EEE05AB9 /* Pods-KatanaUI-KatanaUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = KatanaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		50BD73D50F5E613F21B77D35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 395D53811886B00ADC46D8D0 /* Pods-KatanaElements.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KatanaElements/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = KatanaElements;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7EE5F92E3552B3CA7505169E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D98FC7EC67584EC7C9AAFA13 /* Pods-KatanaUI-KatanaUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = KatanaTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		B448ECC4409F5A8E16FD496C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABF753DB9D933E0BC2E2AB86 /* Pods-KatanaUI.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KatanaUI/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = KatanaUI;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B5A2DCF957D49B09F852126B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94893C465437A8E800B77DBC /* Pods-KatanaElements.release.xcconfig */;
+			baseConfigurationReference = 0BAE92084166414C97D9CC71 /* Pods-KatanaElements.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1230,58 +1216,95 @@
 			};
 			name = Release;
 		};
-		BCFEF46DBC6E2BC3FCA36CAF /* Release */ = {
+		3665C9FFF17F3FA5158D147B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C086D20152D221C57AFF32 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bendingspoons.Demo;
+				PRODUCT_NAME = Demo;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Debug;
 		};
-		C3C706C43807ED4835E96F08 /* Release */ = {
+		3674B351B00B56942B0D5E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3039D643DE1AB380254AABBD /* Pods-KatanaUI.release.xcconfig */;
+			baseConfigurationReference = B08FFB79B9B7D479E9CF8B4A /* Pods-KatanaUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KatanaUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = KatanaUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		528DE65BC3F9FAED9BB9E71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2508E9A3F3436E131B55054F /* Pods-KatanaElements.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KatanaElements/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = KatanaElements;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8662F2AABBACF90CD596437A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D854F3CEA1F39595484B545 /* Pods-KatanaUI-KatanaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = KatanaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		942232D7DD2D2EB65DA60B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF512061D18FC3ECE89D084F /* Pods-KatanaUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1305,93 +1328,70 @@
 			};
 			name = Release;
 		};
-		D309A9A55606336EAF053D72 /* Release */ = {
+		C3DE5BB1A079E0A6E3F37E6D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 903FC51A62B470686DDC5933 /* Pods-Demo.release.xcconfig */;
+			baseConfigurationReference = 5C19425920B1546E5953956E /* Pods-KatanaUI-KatanaUITests.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = KatanaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bendingspoons.Demo;
-				PRODUCT_NAME = Demo;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		DA8743BD0C4B178AA0ED8305 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D905D4C0AB826BB3633D79F /* Pods-Demo.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bendingspoons.Demo;
-				PRODUCT_NAME = Demo;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0644EACA66D0B5B51C4E85F2 /* Build configuration list for PBXNativeTarget "KatanaUITests" */ = {
+		1827E7ED4FBA61CEDC9B79B5 /* Build configuration list for PBXNativeTarget "KatanaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3192DCD6683A37EBC54F89E0 /* Debug */,
-				7EE5F92E3552B3CA7505169E /* Release */,
+				8662F2AABBACF90CD596437A /* Debug */,
+				C3DE5BB1A079E0A6E3F37E6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A354B7470FEEF809FD41D94C /* Build configuration list for PBXNativeTarget "KatanaElements" */ = {
+		43F9A623709F85BB30CF1851 /* Build configuration list for PBXProject "KatanaUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50BD73D50F5E613F21B77D35 /* Debug */,
-				B5A2DCF957D49B09F852126B /* Release */,
+				1EA604FB69621962BF66CCC4 /* Debug */,
+				1106A4F83D9B0CCADA4FCB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BD23EAB3CBAECAB72E49B187 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+		78B56787553AC8F7F13B0757 /* Build configuration list for PBXNativeTarget "KatanaElements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA8743BD0C4B178AA0ED8305 /* Debug */,
-				D309A9A55606336EAF053D72 /* Release */,
+				528DE65BC3F9FAED9BB9E71E /* Debug */,
+				20281463083213034EC567AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE347DBB0310CA01ED2019E5 /* Build configuration list for PBXProject "KatanaUI" */ = {
+		A2CFF09B42BBF66B4BE6B99D /* Build configuration list for PBXNativeTarget "KatanaUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12A76BDF4CCA1AC7937D418E /* Debug */,
-				BCFEF46DBC6E2BC3FCA36CAF /* Release */,
+				3674B351B00B56942B0D5E71 /* Debug */,
+				942232D7DD2D2EB65DA60B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDA10D48DBA710FAE1AE5C20 /* Build configuration list for PBXNativeTarget "KatanaUI" */ = {
+		BAEF1B6209596DADB672DFE2 /* Build configuration list for PBXNativeTarget "Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B448ECC4409F5A8E16FD496C /* Debug */,
-				C3C706C43807ED4835E96F08 /* Release */,
+				3665C9FFF17F3FA5158D147B /* Debug */,
+				1E3454726D87F446FD56904E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 75E3F1E538B8CD3AC1319813 /* Project object */;
+	rootObject = 87B783410A321D640CD8F0D4 /* Project object */;
 }
