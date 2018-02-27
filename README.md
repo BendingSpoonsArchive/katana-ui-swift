@@ -1,4 +1,4 @@
-![Katana](https://raw.githubusercontent.com/BendingSpoons/katana-swift/master/Assets/katana_header.png)
+![Katana](https://raw.githubusercontent.com/BendingSpoons/katana-swift/master/.github/Assets/katana_header.png)
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20katana_swift)](https://twitter.com/katana_swift)
 [![Build Status](https://travis-ci.org/BendingSpoons/katana-swift.svg?branch=master)](https://travis-ci.org/BendingSpoons/katana-swift)
@@ -188,7 +188,7 @@ struct CounterScreen: ConnectedNodeDescription, PlasticNodeDescription, PlasticR
 <table>
   <tr>
     <th>
-      <img src="https://raw.githubusercontent.com/BendingSpoons/katana-swift/master/Assets/demo_counter.gif" width="300"/>
+      <img src="https://raw.githubusercontent.com/BendingSpoons/katana-swift/master/.github/Assets/demo_counter.gif" width="300"/>
     </th>
   </tr>
 </table>
@@ -208,13 +208,13 @@ pod try KatanaUI
 <table>
  <tr>
   <th>
-    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/Assets/demo_pokeAnimation.gif?raw=true" width="200"/>
+    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/.github/Assets/demo_pokeAnimation.gif?raw=true" width="200"/>
   </th>
   <th>
-    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/Assets/demo_codingLove.gif?raw=true" width="200"/>
+    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/.github/Assets/demo_codingLove.gif?raw=true" width="200"/>
   </th>
   <th>
-    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/Assets/demo_minesweeper.gif?raw=true" width="200"/>
+    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/.github/Assets/demo_minesweeper.gif?raw=true" width="200"/>
   </th>
  </tr>
  <tr>
