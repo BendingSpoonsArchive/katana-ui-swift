@@ -1,10 +1,10 @@
-![Katana](https://raw.githubusercontent.com/BendingSpoons/katana-swift/master/.github/Assets/katana_header.png)
+![Katana UI](https://raw.githubusercontent.com/BendingSpoons/katana-ui-swift/master/.github/Assets/katana_header.png)
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20katana_swift)](https://twitter.com/katana_swift)
-[![Build Status](https://travis-ci.org/BendingSpoons/katana-swift.svg?branch=master)](https://travis-ci.org/BendingSpoons/katana-swift)
-[![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/Katana.svg)]()
-[![CocoaPods](https://img.shields.io/cocoapods/v/Katana.svg)]()
-[![Licence](https://img.shields.io/badge/Licence-MIT-lightgrey.svg)](https://github.com/BendingSpoons/katana-swift/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/BendingSpoons/katana-ui-swift.svg?branch=master)](https://travis-ci.org/BendingSpoons/katana-ui-swift)
+[![Docs](https://img.shields.io/cocoapods/metrics/doc-percent/KatanaUI.svg)]()
+[![CocoaPods](https://img.shields.io/cocoapods/v/KatanaUI.svg)]()
+[![Licence](https://img.shields.io/badge/Licence-MIT-lightgrey.svg)](https://github.com/BendingSpoons/katana-ui-swift/blob/master/LICENSE)
 
 
 Katana UI is a modern Swift framework for writing iOS apps, strongly inspired by [React](https://facebook.github.io/react/) and [Redux](http://redux.js.org/), that gives structure to all the aspects of your app:
@@ -70,7 +70,7 @@ struct CounterScreenProps: NodeDescriptionProps {
 }
 ```
 
-When it's time to render the component, the method `applyPropsToNativeView` is called: this is where we need to adjust our nativeView to reflect the  `props` and the `state`. _Note that for common properties like frame, backgroundColor and more we already provide a standard [applyPropsToNativeView](https://github.com/BendingSpoons/katana-swift/blob/master/KatanaElements/View.swift) so we got you covered._
+When it's time to render the component, the method `applyPropsToNativeView` is called: this is where we need to adjust our nativeView to reflect the  `props` and the `state`. _Note that for common properties like frame, backgroundColor and more we already provide a standard [applyPropsToNativeView](https://github.com/BendingSpoons/katana-ui-swift/blob/master/KatanaElements/View.swift) so we got you covered._
 
 ```swift
 struct CounterScreen: NodeDescription {
@@ -183,12 +183,12 @@ struct CounterScreen: ConnectedNodeDescription, PlasticNodeDescription, PlasticR
 }
 ```
 
-### You can find the complete example [here](https://github.com/BendingSpoons/katana-swift/blob/master/Demo)
+### You can find the complete example [here](https://github.com/BendingSpoons/katana-ui-swift/blob/master/Demo)
 
 <table>
   <tr>
     <th>
-      <img src="https://raw.githubusercontent.com/BendingSpoons/katana-swift/master/.github/Assets/demo_counter.gif" width="300"/>
+      <img src="https://raw.githubusercontent.com/BendingSpoons/katana-ui-swift/master/.github/Assets/demo_counter.gif" width="300"/>
     </th>
   </tr>
 </table>
@@ -208,31 +208,31 @@ pod try KatanaUI
 <table>
  <tr>
   <th>
-    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/.github/Assets/demo_pokeAnimation.gif?raw=true" width="200"/>
+    <img src="https://github.com/BendingSpoons/katana-ui-swift/blob/master/.github/Assets/demo_pokeAnimation.gif?raw=true" width="200"/>
   </th>
   <th>
-    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/.github/Assets/demo_codingLove.gif?raw=true" width="200"/>
+    <img src="https://github.com/BendingSpoons/katana-ui-swift/blob/master/.github/Assets/demo_codingLove.gif?raw=true" width="200"/>
   </th>
   <th>
-    <img src="https://github.com/BendingSpoons/katana-swift/blob/master/.github/Assets/demo_minesweeper.gif?raw=true" width="200"/>
+    <img src="https://github.com/BendingSpoons/katana-ui-swift/blob/master/.github/Assets/demo_minesweeper.gif?raw=true" width="200"/>
   </th>
  </tr>
  <tr>
   <th>
-   <a href="https://github.com/BendingSpoons/katana-swift/blob/master/Examples/PokeAnimations">Animations Example</a>
+   <a href="https://github.com/BendingSpoons/katana-ui-swift/blob/master/Examples/PokeAnimations">Animations Example</a>
   </th>
   <th>
-   <a href="https://github.com/BendingSpoons/katana-swift/blob/master/Examples/CodingLove">Table Example</a>
+   <a href="https://github.com/BendingSpoons/katana-ui-swift/blob/master/Examples/CodingLove">Table Example</a>
   </th>
   <th>
-   <a href="https://github.com/BendingSpoons/katana-swift/blob/master/Examples/Minesweeper">Minesweeper Example</a>
+   <a href="https://github.com/BendingSpoons/katana-ui-swift/blob/master/Examples/Minesweeper">Minesweeper Example</a>
   </th>
  </tr>
 </table>
 
 ## Installation
 
-Katana is available through [CocoaPods](https://cocoapods.org/)
+Katana UI is available through [CocoaPods](https://cocoapods.org/)
 
 ### Requirements
 
@@ -252,7 +252,7 @@ Katana is available through [CocoaPods](https://cocoapods.org/)
 $ sudo gem install cocoapods
 ```
 
-To integrate Katana into your Xcode project using CocoaPods you need to create a `Podfile`.
+To integrate Katana UI into your Xcode project using CocoaPods you need to create a `Podfile`.
 
 For iOS platforms, this is the content
 
@@ -276,16 +276,16 @@ $ pod install
 
 ## Gradual Adoption
 
-You can easily integrate Katana in existing applications. This can be very useful in at least two scenarios:
+You can easily integrate Katana UI in existing applications. This can be very useful in at least two scenarios:
 - You want to try katana in a real world application, but you don't want to rewrite it entirely
 - You want to gradually migrate your application to Katana
 
-A gradual adoption doesn't require nothing different from the standard Katana usage. You just need to render your initial `NodeDescription` in the view where you want to place the UI managed by Katana. 
+A gradual adoption doesn't require nothing different from the standard Katana UI usage. You just need to render your initial `NodeDescription` in the view where you want to place the UI managed by Katana. 
 
 Assuming you are in a view controller and you have a `NodeDescription` named `Description`, you can do something like this:
 
 ```swift
-// get the view where you want to render the UI managed by Katana
+// get the view where you want to render the UI managed by Katana UI
 let view = methodToGetView()
 let description = Description(props: Props.build {
 	$0.frame = view.frame
@@ -321,13 +321,13 @@ renderer!.render(in: view)
 
 ## Run the project
 
-In order to run the project, you need [xcake](https://github.com/jcampbell05/xcake). Once you have installed it, go in the Katana project root and run `xcake make`
+In order to run the project, you need [xcake](https://github.com/jcampbell05/xcake). Once you have installed it, go in the Katana UI project root and run `xcake make`
 
 
 
 ## License
 
-Katana is available under the [MIT license](https://github.com/BendingSpoons/katana-swift/blob/master/LICENSE).
+Katana UI is available under the [MIT license](https://github.com/BendingSpoons/katana-ui-swift/blob/master/LICENSE).
 
 ## About
 
