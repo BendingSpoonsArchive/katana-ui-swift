@@ -15,7 +15,7 @@ Katana UI is a modern Swift framework for writing iOS apps, strongly inspired by
 - __layout__: Katana defines a concise language (inspired by [Plastic](https://github.com/BendingSpoons/plastic-lib-iOS)) to describe fully responsive layouts that will gracefully scale at every aspect ratio or size, including font sizes and images.
 
 
-|      | Katana                                   |
+|      | Katana UI                                |
 | ---- | ---------------------------------------- |
 | 🎙   | Declaratively define your UI             |
 | 📦   | Store all your app state in a single place |
